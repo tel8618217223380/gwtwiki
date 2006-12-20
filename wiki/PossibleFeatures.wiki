@@ -5,8 +5,7 @@
 == Use as "Wiki on a stick" ==
 See [http://sourceforge.net/projects/stickwiki Wiki on a Stick] project.
 
-The stickwiki uses some JavaScript local file saving technics,
-which maybe could be integrated with the use of[http://code.google.com/webtoolkit/documentation/com.google.gwt.doc.DeveloperGuide.JavaScriptNativeInterface.html JSNI].
+The stickwiki uses some JavaScript local file saving technics, which could be integrated with the use of [http://code.google.com/webtoolkit/documentation/com.google.gwt.doc.DeveloperGuide.JavaScriptNativeInterface.html JSNI].
 
 == Use as an editor ==
 Integrate the editor component into the Mediawiki or JAMWiki software.
