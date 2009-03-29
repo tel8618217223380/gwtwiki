@@ -1,0 +1,40 @@
+#summary How to use the Maven repository
+
+IN PROGRESS
+= Introduction =
+This example demonstrates the configuration of the bliki engine for a project:
+
+{{{
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>test</groupId>
+        <artifactId>test-bliki</artifactId>
+        <packaging>jar</packaging>
+        <version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>info.bliki.wiki</groupId>
+			<artifactId>bliki-core</artifactId>
+			<version>3.0.11-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+...
+
+...
+        <repositories>
+                <repository>
+                        <id>info-bliki-repository</id>
+                        <url>http://gwtwiki.googlecode.com/svn/maven-snapshot-repository/</url>
+                        <releases>
+                                <enabled>false</enabled>
+                        </releases>
+                        <snapshots>
+                                <enabled>true</enabled>
+                        </snapshots>
+                </repository>
+        </repositories>
+</project>
+}}}
