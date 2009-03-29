@@ -2,7 +2,7 @@
 
 IN PROGRESS
 = Introduction =
-This example demonstrates the configuration of the bliki engine for a project:
+This example demonstrates the configuration of the bliki engine for a Maven project:
 
 {{{
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
