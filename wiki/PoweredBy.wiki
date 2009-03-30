@@ -1,4 +1,4 @@
-#summary projects powered by the Java Wikipedia API (bliki engine).
+#summary Projects powered by the Java Wikipedia API (bliki engine).
 
 = Powered by=
 * [http://solowiki.sourceforge.net/ SoloWiki]
