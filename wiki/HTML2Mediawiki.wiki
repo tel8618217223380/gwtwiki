@@ -1,0 +1,16 @@
+#summary How to convert HTML to Wikipedia text
+
+= How to convert HTML to Wikipedia text =
+The HTML 2 Wiki parser is derived from this project:
+* http://sourceforge.net/projects/htmlcleaner
+
+A simple html to wiki fragment looks like this:
+{{{
+		HTML2WikiConverter conv = new HTML2WikiConverter();
+		conv.setInputHTML("<b>hello<em>world</em></b>");
+		String result = conv.toWiki(new ToWikipedia());
+		assertEquals(result, "'''hello''world'''''");
+}}}
+
+You can use the HTML to Wikipedia text converter online here:
+* [http://www.jtidy.de www.jtidy.de]
