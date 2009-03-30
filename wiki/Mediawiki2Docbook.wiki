@@ -1,7 +1,7 @@
 #summary How to convert Mediawiki to Docbook.
 
 = How to convert Mediawiki to Docbook =
-There's also partial support for converting a Wikipedia text into a Docbook document.
+There's partial support for converting a Wikipedia text into a Docbook document.
 
 {{{
 	// some wiki text stored in a test string:
