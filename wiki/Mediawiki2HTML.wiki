@@ -1,4 +1,5 @@
 #summary How to convert Mediawiki text to HTML
+#labels Featured,Phase-Implementation
 
 = How to convert Mediawiki text to HTML =
 The general idea for the wiki to html "WikiModel" is, that the common wiki syntax rendering is hidden in the internal WikipediaParser. 
