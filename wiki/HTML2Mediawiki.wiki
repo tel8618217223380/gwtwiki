@@ -1,6 +1,7 @@
-#summary How to convert HTML to Wikipedia text
+#summary How to convert HTML to Mediawiki text
+#labels Phase-Implementation
 
-= How to convert HTML to Wikipedia text =
+= How to convert HTML to Mediawiki text =
 The HTML 2 Wiki parser is derived from this project:
 * http://sourceforge.net/projects/htmlcleaner
 
