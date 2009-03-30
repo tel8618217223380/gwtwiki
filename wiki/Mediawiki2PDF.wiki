@@ -40,5 +40,5 @@ See for example the [http://code.google.com/p/gwtwiki/source/browse/trunk/info.b
 }}}
 
 The PDF Generation is based on the ''Flying Saucer All-Java XHTML Renderer'' project. See these webpages for more information:
-* [https://xhtmlrenderer.dev.java.net/ Homepage]
-* [http://today.java.net/pub/a/today/2006/10/31/combine-facelets-and-flying-saucer-renderer.html XHTML to PDF Conversion, XHTML to Image Conversion or XHTML to Scalable Vector Graphics (SVG) Conversion]
+  * [https://xhtmlrenderer.dev.java.net/ Homepage]
+  * [http://today.java.net/pub/a/today/2006/10/31/combine-facelets-and-flying-saucer-renderer.html XHTML to PDF Conversion, XHTML to Image Conversion or XHTML to Scalable Vector Graphics (SVG) Conversion]
