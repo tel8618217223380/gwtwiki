@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>info.bliki.wiki</groupId>
+  <artifactId>bliki-core</artifactId>
+  <version>3.0.11</version>
+  <versioning>
+    <versions>
+      <version>3.0.11</version>
+    </versions>
+    <lastUpdated>20090330075820</lastUpdated>
+  </versioning>
+</metadata>
