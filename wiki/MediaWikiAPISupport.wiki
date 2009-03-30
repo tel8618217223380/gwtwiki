@@ -1,0 +1,23 @@
+#summary One-sentence summary of this page.
+
+= Helper classes for the Wikimedia api.php =
+Helper Classes for the [http://www.mediawiki.org/wiki/API MediaWiki API page] can be found in the package: {{{info.bliki.api}}}
+
+For example this snippet determines the categories used in the Wikimedia [http://meta.wikimedia.org/wiki/Main_Page Main Page] and [[http://meta.wikimedia.org/wiki/API API]] page:
+{{{
+	public static void testQueryCategories001() {
+		String[] listOfTitleStrings = { "Main Page", "API" };
+		User user = new User("", "", "http://meta.wikimedia.org/w/api.php");
+		user.login();
+		List<Page> listOfPages = user.queryCategories(listOfTitleStrings);
+		for (Page page : listOfPages) {
+			// print page information
+			System.out.println(page.toString());
+			for (int j = 0; j < page.sizeOfCategoryList(); j++) {
+				Category cat = page.getCategory(j);
+				// print every category in this page
+				System.out.println(cat.toString());
+			}
+		}
+	}
+}}}
