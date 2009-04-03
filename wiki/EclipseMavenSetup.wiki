@@ -1,0 +1,16 @@
+#summary How to use Eclipse and Maven (not complete yet)
+
+= How to use Eclipse and Maven (not complete yet) =
+
+== Prerequisite ==
+I'm using these plugins under Eclipse:
+  * [http://subclipse.tigris.org/ subclipse] plugin
+  * [http://m2eclipse.codehaus.org/ M2Eclipse] plugin
+
+== Setup ==
+Install Subclipse and the Maven Eclipse plugins.   
+  # In Eclipse go to Help &rarr; Software Updates &rarr; Find and Install.
+  # Choose "Search for new features to install"
+  # The required plugin URLs for subclipse and M2Eclipse are:
+  #* http://subclipse.tigris.org/update_1.0.x
+  #* http://m2eclipse.codehaus.org/update/
