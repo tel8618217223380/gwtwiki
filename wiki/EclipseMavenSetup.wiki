@@ -1,7 +1,7 @@
-#summary How to use Eclipse and Maven (not complete yet)
+#summary How to use Eclipse, SVN and Maven (not complete yet)
 #labels Phase-Implementation
 
-= How to use Eclipse and Maven (not complete yet) =
+= How to use Eclipse, SVN and Maven (not complete yet) =
 
 == Prerequisite ==
 I'm using these plugins under Eclipse:
