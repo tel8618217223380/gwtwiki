@@ -1,5 +1,5 @@
 #summary Bliki parser integration into www.jamwiki.org wiki.
-#labels Phase-Implementation
+#labels Phase-Implementation,Featured
 
 = Bliki parser integration into www.jamwiki.org wiki =
 From Bliki version 3.0.12-SNAPSHOT and JAMWiki 0.8.0-SNAPSHOT on, the Bliki parser engine can be used in the jamwiki software:
