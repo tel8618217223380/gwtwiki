@@ -14,3 +14,10 @@ Install Subclipse and the Maven Eclipse plugins.
   # The required plugin URLs for subclipse and M2Eclipse are:
   #* http://subclipse.tigris.org/update_1.0.x
   #* http://m2eclipse.codehaus.org/update/
+
+Once installed, select the "SVN Repository" Eclipse perspective and add 
+  * https://gwtwiki.googlecode.com/svn/trunk/
+as a repository URL. 
+
+Open the trunk node and _right click_ on the _info.bliki.wiki_ node, select the "Find/Check out as..." menu option.
+In the following dialog box you can _Check out_ the source code from SVN.
