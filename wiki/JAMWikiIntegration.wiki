@@ -7,5 +7,5 @@ From version Bliki version 3.0.12-SNAPSHOT and JAMWiki 0.8.0-SNAPSHOT on the Bli
 
 After installing JAMWiki change the parser parameter in the file:
  {{{jamwiki-war/WEB-INF/classes/jamwiki.properties}}}
-
+to this class:
  {{{parser=org.jamwiki.parser.bliki.BlikiParser}}}
