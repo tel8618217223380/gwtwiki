@@ -2,8 +2,8 @@
 #labels Featured,Phase-Implementation
 
 = How to convert Mediawiki text to HTML =
-The general idea for the wiki to html "WikiModel" is, that the common wiki syntax rendering is hidden in the internal WikipediaParser. 
-Users of the API should derive a class from WikiModel or AbstractWikiModel, where special things could be managed.
+The general idea for the wiki to html `WikiModel` is, that the common wiki syntax rendering is hidden in the internal `WikipediaParser`. 
+Users of the API should derive a class from `WikiModel` or `AbstractWikiModel`, where special things could be managed.
 
 A simple wiki to html fragment looks like this:
 {{{
