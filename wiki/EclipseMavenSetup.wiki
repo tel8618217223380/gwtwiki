@@ -31,6 +31,6 @@ For the Maven plugin to recognize the module dependencies you have to:
   * in the left tree of the appearing diaöog box select the Maven node.
   * in the right Maven panel enable the checkbox _Include Modules_
 
-In the _package explorer_ view do a _right mouse click_ on the {{{pom.xml}}} file and select the menu _Run As &rarr; Maven build..._.
+In the _package explorer_ view do a _right mouse click_ on the {{{pom.xml}}} file and select the menu _Run As -> Maven build..._.
 
 In the appearing dialog box choose the _install_ goal and run Maven.
