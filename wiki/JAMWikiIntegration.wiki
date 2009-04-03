@@ -1,0 +1,5 @@
+#summary Bliki parser integration into www.jamwiki.org wiki.
+
+= Bliki parser integration into www.jamwiki.org wiki =
+From version 3.0.12-SNAPSHOT on Bliki can be used in the jamwiki software:
+  * [http://www.jamwiki.org www.jamwiki.org]
