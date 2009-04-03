@@ -27,10 +27,15 @@ In the following dialog box you can _Check out_ the source code from SVN.
 Now change back to the Eclipse _Java perspective_.
 
 For the Maven plugin to recognize the module dependencies you have to:
-  * _Right click_ in the _package explorer_ view on the info.bliki.wiki project node and choose the _Properties_ menu
+  * _right click_ in the _Package Explorer_ view on the info.bliki.wiki project node and choose the _Properties_ menu
   * in the left tree of the appearing dialog box select the Maven node.
   * in the right Maven panel enable the checkbox _Include Modules_
 
-In the _package explorer_ view do a _right mouse click_ on the {{{pom.xml}}} file and select the menu _Run As -> Maven build..._.
+As a result the line 
+  {{{includeModules=true}}}
+should be set in the file:
+  {{{info.bliki.wiki/.settings/org.maven.ide.eclipse.prefs}}}
+
+In the _Package Explorer_ view do a _right mouse click_ on the {{{pom.xml}}} file and select the menu _Run As -> Maven build..._.
 
 In the appearing dialog box choose the _install_ goal and run Maven.
