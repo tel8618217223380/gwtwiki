@@ -25,8 +25,7 @@ public class WikiTestModel extends WikiModel {
   public WikiTestModel(String imageBaseURL, String linkBaseURL) {
     super(imageBaseURL, linkBaseURL);
   }
-
-  public void parseInternalImageLink(StringBuffer writer, String imageNamespace, String name) {
+  public void parseInternalImageLink(String imageNamespace, String rawImageLink) {
     ...
 
     ...
