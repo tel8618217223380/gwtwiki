@@ -1,6 +1,6 @@
 #summary Projects powered by the Java Wikipedia API (bliki engine).
 
 = Powered by=
-* [http://solowiki.sourceforge.net/ SoloWiki]
-* [http://www.codexwiki.org CodeXWiki]
-* [http://www.jamwiki.org JAMWiki.org] 
+  * [http://solowiki.sourceforge.net/ SoloWiki]
+  * [http://www.codexwiki.org CodeXWiki]
+  * [http://www.jamwiki.org JAMWiki.org] 
