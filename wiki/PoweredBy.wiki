@@ -1,6 +1,6 @@
 #summary Projects powered by the Java Wikipedia API (bliki engine).
 
 = Powered by=
-  * [http://solowiki.sourceforge.net/ SoloWiki]
-  * [http://www.codexwiki.org CodeXWiki] - a CodexWiki is a ColdFusion Enterprise Wiki 
-  * [http://www.jamwiki.org JAMWiki.org] - offers many of the features of [http://mediawiki.org/ Mediawiki] (for using the Bliki engine see [JAMWikiIntegration])
+  * [http://solowiki.sourceforge.net/ SoloWiki] is a stand-alone editor designed to help Mediawiki users.
+  * [http://www.codexwiki.org CodeXWiki] is a ColdFusion Enterprise Wiki 
+  * [http://www.jamwiki.org JAMWiki.org] offers many of the features of [http://mediawiki.org/ Mediawiki] (for using the Bliki engine see [JAMWikiIntegration])
