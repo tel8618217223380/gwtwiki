@@ -61,7 +61,7 @@ public static void testWikipediaENAPI(String title) {
 		String databaseSubdirectory = "WikiDB";
 		// the following directory must exist for image downloads
 		String imageDirectory = "c:/temp/WikiImages";
-		// the generated HTML fil will be stored in this file:
+		// the generated HTML will be stored in this file name:
 		String generatedHTMLFilename = mainDirectory + titleURL + ".html";
 		
 		WikiDB db = null;
