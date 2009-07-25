@@ -17,6 +17,12 @@ public static void main(String[] args)
 	}
 }}}
 
+and creates the following HTML snippet:
+{{{
+<p>This is a simple <a href="http://www.mywiki.com/wiki/Hello_World" title="Hello World">Hello World</a> wiki tag</p>
+}}}
+
+As you can see the {{{${title}}}} variable is replaced by the text of the wikilink according to the rules specified in the [http://meta.wikimedia.org/wiki/Help:Link Mediawiki Help:Link] article.
 
 You can for example overwrite the {{{WikiModel#parseInternalImageLink()}}} method to change the default rendering behaviour of the {{{[[Image:...]]}}} tag.
 
