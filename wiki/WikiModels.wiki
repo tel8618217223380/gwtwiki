@@ -2,7 +2,7 @@
 #labels Phase-Implementation
 
 = Introduction =
-For this page we assume that we use the following code snippet with a {{{MyWikiModel}}} which is derived from the {{{info.bliki.wiki.model.AbstractWikiModel}}} or {{{info.bliki.wiki.model.IWikiModel}}} interface:
+For this page we assume that we use the following code snippet with a {{{MyWikiModel}}} which is derived from the {{{info.bliki.wiki.model.AbstractWikiModel}}} class or {{{info.bliki.wiki.model.IWikiModel}}} interface:
 
 {{{
   MyWikiModel wikiModel = new MyWikiModel("http://www.mywiki.com/wiki/${image}",
