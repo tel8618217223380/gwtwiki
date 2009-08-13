@@ -13,7 +13,7 @@ For this page we assume that we use the following code snippet with a {{{MyWikiM
 }}}
 
 = How to expand templates found in a wiki text =
-If our model should support expanding templates we have to implement the IWikiModel+() method.
+If our model should support expanding templates we have to implement the {{{IWikiModelgetRawWikiContent()}}} method.
 
 If we would like to expand the {{{my template}}} template with the text "foo" in the following string:
 
@@ -21,7 +21,7 @@ If we would like to expand the {{{my template}}} template with the text "foo" in
   wikiText = "This is a simple [[Hello World]] wiki tag {{my template}}";
 }}} 
 
-our implementation {{{MyWikiModel#getRawWikiContent()}}} method looks something like this:
+our implementation method {{{MyWikiModel#getRawWikiContent()}}} looks something like this:
 
 {{{
 	public final static String MY_TEMPLATE = "foo";
@@ -44,3 +44,5 @@ our implementation {{{MyWikiModel#getRawWikiContent()}}} method looks something 
 		}
 		return null;
 }}}
+
+In the {{{info.bliki.wiki.impl.APIWikiModel}}} class you can find a more sophisticated example in the method {{{getRawWikiContent()}}}. There the template content is cached in an internal Java Derby database. If the text is not available in the database we export it directly from a wiki which supports the Mediawiki API.
