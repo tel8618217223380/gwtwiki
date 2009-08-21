@@ -1,7 +1,7 @@
 #summary Projects powered by the Java Wikipedia API (bliki engine).
 
 = Powered by=
-  * [http://solowiki.sourceforge.net/ SoloWiki] is a stand-alone editor designed to help Mediawiki users.
+  * [http://solowiki.sourceforge.net/ SoloWiki] (GPL license) is a stand-alone editor designed to help Mediawiki users.
   * [http://www.codexwiki.org CodexWiki] (Apache license) is a ColdFusion Enterprise Wiki built on Coldbox, Transfer and ColdSpring.
   * [http://www.jamwiki.org JAMWiki.org] (LGPL license) offers many of the features of [http://mediawiki.org/ Mediawiki] (for using the Bliki engine see [JAMWikiIntegration])
  
