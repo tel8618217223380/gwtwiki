@@ -19,7 +19,7 @@ This example demonstrates the configuration of the bliki engine for a Maven proj
 		<dependency>
 			<groupId>info.bliki.wiki</groupId>
 			<artifactId>bliki-core</artifactId>
-			<version>3.0.12</version>
+			<version>3.0.13</version>
 		</dependency>
 	</dependencies>
 
