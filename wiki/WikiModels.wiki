@@ -46,4 +46,4 @@ our implementation method {{{MyWikiModel#getRawWikiContent()}}} looks something 
         }
 }}}
 
-In the {{{info.bliki.wiki.impl.APIWikiModel}}} class you can find a more sophisticated example in the method {{{getRawWikiContent()}}}. There the template content is cached in an internal [http://db.apache.org/derby/ Java Derby] database. If the template is not available in the database we import it directly from a wiki which supports the [http://www.mediawiki.org/wiki/API Mediawiki API] with the {{{info.bliki.api.User#queryContent(String[] listOfTitleStrings)}}} method.
+In the [http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bliki-pdf/src/main/java/info/bliki/wiki/impl/APIWikiModel.java info.bliki.wiki.impl.APIWikiModel] class you can find a more sophisticated example in the method {{{getRawWikiContent()}}}. There the template content is cached in an internal [http://db.apache.org/derby/ Java Derby] database. If the template is not available in the database we import it directly from a wiki which supports the [http://www.mediawiki.org/wiki/API Mediawiki API] with the {{{info.bliki.api.User#queryContent(String[] listOfTitleStrings)}}} method.
