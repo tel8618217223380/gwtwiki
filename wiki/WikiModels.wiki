@@ -36,6 +36,7 @@ our implementation method {{{MyWikiModel#getRawWikiContent()}}} looks something 
 			// found magic word template
 			return result;
 		}
+                // replace SPACES with underscore('_') and first character as uppercase
 		String name = encodeTitleToUrl(articleName, true);
 		if (isTemplateNamespace(namespace)) {
 			if (name.equals("My_template")) {
