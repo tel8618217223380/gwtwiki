@@ -1,7 +1,10 @@
 #summary Release notes
 
 = Version 3.0.14 (unreleased) =
-  * http://code.google.com/p/gwtwiki/issues/detail?id=31
+  * Fixed Image links that have intra-page link are broken - http://code.google.com/p/gwtwiki/issues/detail?id=31
+  * Fixed html output for some preformatted text isn't encoded - http://code.google.com/p/gwtwiki/issues/detail?id=30
+  * Fixed some image attributes are not encoded - http://code.google.com/p/gwtwiki/issues/detail?id=29
+  * Fixed html table output can be invalid if input wiki markup is invalid - http://code.google.com/p/gwtwiki/issues/detail?id=28 
 
 = Version 3.0.13 =
   * more JUnit wiki parser tests
