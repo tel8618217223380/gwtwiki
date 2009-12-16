@@ -1,0 +1,32 @@
+#summary Release notes
+
+= Version 3.0.13 =
+  * more JUnit wiki parser tests
+  * Changed encoding for Maven explicitly to UTF-8 
+  * Added Wikipedia namespaces class
+  * Fixed http://code.google.com/p/gwtwiki/issues/detail?id=19
+  * Fixed http://code.google.com/p/gwtwiki/issues/detail?id=16
+
+= Version 3.0.12 =
+  * Don't convert first character to uppercase character for interwiki topics
+  * Allow floating-point numbers like 1.0E10 in math expressions.
+  * Avoid unnecessary memory allocation for substrings
+  * Add support for telefone call http://code.google.com/p/gwtwiki/issues/detail?id=11
+  * Wikipedia API: added "edittoken" for query
+  * Wikipedia API: added "edit" action support.
+  * Wikipedia API: use builder pattern to create the query for the Wikipedia API
+  * Wikipedia API: added Parse action support  
+  * Wikipedia API: added the "lgdomain" parameter for User() constructor and Connector#login()
+method http://code.google.com/p/gwtwiki/issues/detail?id=8
+  * More Mediawiki compatible handling for non-closed tags: <noinclude>,
+<includeonly>, <onlyinclude>
+
+= Version 3.0.11 =
+  * the bliki-core Maven artifact is now available in this repository (thanks Daniel Sendula). More information can be found in page MavenSupport 
+  * support for the <onlyinclude> tag in templates
+  * support for Image size format {width}x{height}px
+  * dropped Trac support
+  * Using '.' instead of '%' in table of content "anchor links"
+  * Using Flying Saucer - R8pre2 now
+  * Italian language properties contributed by Giuseppe Profiti
+  * Added first version of PlainTextConverter, a converter which renders the internal tree node representation as plain text without HTML tags and images 
