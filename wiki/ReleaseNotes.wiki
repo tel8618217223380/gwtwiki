@@ -10,7 +10,7 @@
   * Fixed tml output is invalid for some images with inline quotes - http://code.google.com/p/gwtwiki/issues/detail?id=25
   * Change Performance issue : toLowerCase on parseURIScheme - http://code.google.com/p/gwtwiki/issues/detail?id=23
   * Added simple python code formatter
-  * Improved source code formatter handling. Try to auto detect some formats.
+  * Improved source code formatter handling. Try to auto detect some programming languages.
 
 
 = Version 3.0.13 =
