@@ -1,5 +1,8 @@
 #summary Release notes
 
+= Version 3.0.14 (unreleased) =
+  * http://code.google.com/p/gwtwiki/issues/detail?id=31
+
 = Version 3.0.13 =
   * more JUnit wiki parser tests
   * Changed encoding for Maven explicitly to UTF-8 
