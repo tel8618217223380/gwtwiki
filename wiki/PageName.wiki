@@ -16,10 +16,9 @@
   * Wikipedia API: added "edit" action support.
   * Wikipedia API: use builder pattern to create the query for the Wikipedia API
   * Wikipedia API: added Parse action support  
-  * Wikipedia API: added the "lgdomain" parameter for User() constructor and Connector#login()
-method http://code.google.com/p/gwtwiki/issues/detail?id=8
-  * More Mediawiki compatible handling for non-closed tags: <noinclude>,
-<includeonly>, <onlyinclude>
+  * Wikipedia API: added the "lgdomain" parameter for User() constructor and Connector#login() method http://code.google.com/p/gwtwiki/issues/detail?id=8
+  * More Mediawiki compatible handling for non-closed tags: {{{<noinclude>,
+<includeonly>, <onlyinclude>}}}
 
 = Version 3.0.11 =
   * the bliki-core Maven artifact is now available in this repository (thanks Daniel Sendula). More information can be found in page MavenSupport 
