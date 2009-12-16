@@ -7,6 +7,11 @@
   * Fixed html table output can be invalid if input wiki markup is invalid - http://code.google.com/p/gwtwiki/issues/detail?id=28 
   * html output for references does not encode some attribute values - http://code.google.com/p/gwtwiki/issues/detail?id=27
   * Fixed html output is invalid for some references with template interaction - http://code.google.com/p/gwtwiki/issues/detail?id=26
+  * Fixed tml output is invalid for some images with inline quotes - http://code.google.com/p/gwtwiki/issues/detail?id=25
+  * Change Performance issue : toLowerCase on parseURIScheme - http://code.google.com/p/gwtwiki/issues/detail?id=23
+  * Added simple python code formatter
+  * Improved source code formatter handling. Try to auto detect some formats.
+
 
 = Version 3.0.13 =
   * more JUnit wiki parser tests
