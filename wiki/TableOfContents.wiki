@@ -8,3 +8,4 @@
   * [MavenSupport Maven repository]
   * [EclipseMavenSetup Eclipse Maven setup]
   * [ReleaseNotes Release notes]
+  * [PoweredBy Projects powered by Bliki]
