@@ -1,4 +1,5 @@
 #summary Release notes
+#sidebar TableOfContents
 
 = Version 3.0.14 (unreleased) =
   * Fixed Image links that have intra-page link are broken - http://code.google.com/p/gwtwiki/issues/detail?id=31
