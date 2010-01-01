@@ -1,4 +1,5 @@
-#summary How to convert Mediwiki text to PDF.
+#summary How to convert Mediawiki text to PDF.
+#sidebar TableOfContents
 
 = How to convert Mediwiki text to PDF =
 There's partial support for converting a Wikipedia text into a PDF document.
