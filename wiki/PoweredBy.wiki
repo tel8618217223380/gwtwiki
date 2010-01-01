@@ -1,4 +1,5 @@
 #summary Projects powered by the Java Wikipedia API (bliki engine).
+#sidebar TableOfContents
 
 = Powered by=
   * [http://solowiki.sourceforge.net/ SoloWiki] (GPL license) is a stand-alone editor designed to help Mediawiki users.
