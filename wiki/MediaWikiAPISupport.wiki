@@ -1,5 +1,6 @@
 #summary Helper classes for the Wikimedia api.php.
 #labels Featured
+#sidebar TableOfContents
 
 = Helper classes for the Wikimedia api.php =
 Helper Classes for the [http://www.mediawiki.org/wiki/API MediaWiki API page] can be found in the package: {{{info.bliki.api}}}
