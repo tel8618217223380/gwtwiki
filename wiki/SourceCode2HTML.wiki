@@ -1,5 +1,6 @@
 #summary Sourcecode to syntax highlighted HTML converter.
 #labels Phase-Implementation
+#sidebar TableOfContents
 
 = Sourcecode to syntax highlighted HTML converter =
 A syntax highlighter is available for the languages: ABAP (SAP R/3), C#, Java, JavaScript, PHP, XML(HTML).
