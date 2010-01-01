@@ -1,0 +1,4 @@
+#summary Table of contents navigation
+  * [Mediawiki2HTML Mediawiki text to HTML]
+  * [MediaWikiAPISupport Wikimedia api.php support]
+  * [ReleaseNotes Release notes]
