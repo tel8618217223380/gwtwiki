@@ -1,5 +1,6 @@
 #summary How to use the WikiModel
 #labels Phase-Implementation
+#sidebar TableOfContents
 
 = Introduction =
 For this page we assume that we use the following code snippet with a {{{MyWikiModel}}} which is derived from the {{{info.bliki.wiki.model.WikiModel}}} class or {{{info.bliki.wiki.model.IWikiModel}}} interface:
