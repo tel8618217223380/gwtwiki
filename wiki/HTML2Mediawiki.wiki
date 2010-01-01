@@ -1,5 +1,6 @@
 #summary How to convert HTML to Mediawiki text
 #labels Phase-Implementation
+#sidebar TableOfContents
 
 = How to convert HTML to Mediawiki text =
 The HTML 2 Wiki parser is derived from this project:
