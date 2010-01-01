@@ -1,7 +1,7 @@
 #summary How to convert Mediawiki text to PDF.
 #sidebar TableOfContents
 
-= How to convert Mediwiki text to PDF =
+= How to convert Mediawiki text to PDF =
 There's partial support for converting a Wikipedia text into a PDF document.
 
 See for example the [http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki.test/bliki-test/src/main/java/info/bliki/api/PDFCreatorTest.java PDFCreatorTest.java] file:
