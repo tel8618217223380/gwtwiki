@@ -1,7 +1,8 @@
-#summary How to use Eclipse, SVN and Maven (not complete yet)
+#summary How to use Eclipse, SVN and Maven
 #labels Phase-Implementation
+#sidebar TableOfContents
 
-= How to use Eclipse, SVN and Maven (not complete yet) =
+<wiki:toc max_depth="1" />
 
 == Prerequisite ==
 I'm using these plugins under Eclipse:
