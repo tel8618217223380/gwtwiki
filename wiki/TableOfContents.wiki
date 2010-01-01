@@ -1,6 +1,8 @@
 #summary Table of contents navigation
   * [Mediawiki2HTML Mediawiki text to HTML]
   * [HTML2Mediawiki HTML to Mediwiki]
+    * [WikiModels How to use the WikiModel]
+    * [SourceCode2HTML source code to HTML]
   * [MediaWikiAPISupport Wikimedia api.php support]
   * [Mediawiki2Docbook Mediawiki to Docbook]
   * [Mediawiki2PDF Mediawiki to PDF]
