@@ -1,4 +1,8 @@
 #summary Table of contents navigation
   * [Mediawiki2HTML Mediawiki text to HTML]
+  * [HTML2Mediawiki HTML to Mediwiki text]
   * [MediaWikiAPISupport Wikimedia api.php support]
+  * [JAMWikiIntegration Usage in jamwiki.org Wiki]
+  * [MavenSupport Maven repository]
+  * [EclipseMavenSetup Eclipse Maven setup]
   * [ReleaseNotes Release notes]
