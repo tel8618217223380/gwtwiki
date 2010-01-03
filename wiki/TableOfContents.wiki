@@ -7,6 +7,7 @@
   * [MediaWikiAPISupport Wikimedia api.php support]
   * [Mediawiki2Docbook Mediawiki to Docbook]
   * [Mediawiki2PDF Mediawiki to PDF]
+  * [Mediawiki2PlainText Mediawiki to plain text]
   * [MavenSupport Maven repository]
   * [EclipseMavenSetup Eclipse Maven setup]
   * [ReleaseNotes Release notes]
