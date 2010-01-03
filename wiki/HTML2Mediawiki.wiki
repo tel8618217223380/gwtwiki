@@ -13,7 +13,7 @@ A simple html to wiki fragment looks like this:
 
 = Online tool =
 You can use the HTML to Wikipedia text converter online here:
-  * [http://www.jtidy.de www.jtidy.de]
+  * [http://w-i-k-i.appspot.com/ w-i-k-i.appspot.com]
 
 The latest sources for the HTML to Wikipedia online tool are available here:
   * [http://code.google.com/p/gwtwiki/source/browse/trunk/de.jtidy.gwt SVN - de.jtidy.gwt]
