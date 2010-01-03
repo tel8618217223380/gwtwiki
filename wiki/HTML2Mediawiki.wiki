@@ -3,9 +3,6 @@
 #sidebar TableOfContents
 
 = How to convert HTML to Mediawiki text =
-The HTML 2 Wiki parser is derived from this project:
-* http://sourceforge.net/projects/htmlcleaner
-
 A simple html to wiki fragment looks like this:
 {{{
 		HTML2WikiConverter conv = new HTML2WikiConverter();
@@ -14,5 +11,11 @@ A simple html to wiki fragment looks like this:
 		assertEquals(result, "'''hello''world'''''");
 }}}
 
+= Online tool =
 You can use the HTML to Wikipedia text converter online here:
 * [http://www.jtidy.de www.jtidy.de]
+
+The latest sources for the HTML to Wikipedia text converter are available here:
+  * [http://code.google.com/p/gwtwiki/source/browse/trunk/de.jtidy.gwt SVN - de.jtidy.gwt]
+
+Because there are no specific [https://appengine.google.com/ Google Appengine API calls] used, it should also work with other containers (Tomcat, Jetty,...).
