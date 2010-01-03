@@ -16,8 +16,8 @@ public class PlainTextConverterExample {
 
 	public static void main(String[] args) {
 		WikiModel wikiModel = new WikiModel("http://www.mywiki.com/wiki/${image}", "http://www.mywiki.com/wiki/${title}");
-		String htmlStr = wikiModel.render(new PlainTextConverter(), TEST);
-		System.out.print(htmlStr);
+		String plainStr = wikiModel.render(new PlainTextConverter(), TEST);
+		System.out.print(plainStr);
 	}
 }
 }}}
