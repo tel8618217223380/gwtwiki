@@ -13,9 +13,9 @@ A simple html to wiki fragment looks like this:
 
 = Online tool =
 You can use the HTML to Wikipedia text converter online here:
-* [http://www.jtidy.de www.jtidy.de]
+  * [http://www.jtidy.de www.jtidy.de]
 
-The latest sources for the HTML to Wikipedia text converter are available here:
+The latest sources for the HTML to Wikipedia online tool are available here:
   * [http://code.google.com/p/gwtwiki/source/browse/trunk/de.jtidy.gwt SVN - de.jtidy.gwt]
 
-Because there are no specific [https://appengine.google.com/ Google Appengine API calls] used, it should also work with other containers (Tomcat, Jetty,...).
+Because there are no specific [https://appengine.google.com/ Google Appengine API calls] used, it should also work with other containers (i.e. Tomcat, Jetty,... in an intranet environment).
