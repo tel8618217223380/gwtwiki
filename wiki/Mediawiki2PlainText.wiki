@@ -1,7 +1,10 @@
 #summary How to convert Mediawiki to plain text.
-#pragma sidebar
+#sidebar TableOfContents
 
+= How to convert Mediawiki text to plain text =
+The PlainTextConverter can convert simple Mediawiki texts to plain text.
 
+Example:
 {{{
 package info.bliki.wiki;
 
