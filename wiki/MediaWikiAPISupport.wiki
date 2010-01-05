@@ -34,3 +34,6 @@ In case you are using a proxy you can set the {{{HostConfiguration}}} for the co
 		hostConfiguration.setProxy("<proxyHost>", 80);
 		client.setHostConfiguration(hostConfiguration);
 }}}
+
+= Troubleshooting =
+See: [http://hc.apache.org/httpclient-3.x/troubleshooting.html Trouble Shooting HttpClient]
