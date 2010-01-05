@@ -25,6 +25,7 @@ For example this snippet determines the categories used in the Wikimedia [http:/
 }}}
 
 = Connecting through a HTTP proxy =
+(Needs [http://code.google.com/p/gwtwiki/source/detail?r=635 revision 635])
 In case you are using a proxy you can set the {{{HostConfiguration}}} for the connector. The {{{HostConfiguration}}} holds all of the variables needed to describe an HTTP connection to a host. This includes remote host, port and protocol, proxy host and port, local address, and virtual host. 
 {{{
 		Connector conn = user.getConnector();
