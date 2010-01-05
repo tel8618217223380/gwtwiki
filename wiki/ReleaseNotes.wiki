@@ -2,14 +2,14 @@
 #sidebar TableOfContents
 
 = Version 3.0.14 (unreleased) =
-  * Fixed problems with intranet wiki and "byte order mark" - http://code.google.com/p/gwtwiki/issues/detail?id=33
+  * Mediawiki API: Fixed problems with intranet wiki and "byte order mark" - http://code.google.com/p/gwtwiki/issues/detail?id=33
   * Fixed Image links that have intra-page link are broken - http://code.google.com/p/gwtwiki/issues/detail?id=31
   * Fixed html output for some preformatted text isn't encoded - http://code.google.com/p/gwtwiki/issues/detail?id=30
   * Fixed some image attributes are not encoded - http://code.google.com/p/gwtwiki/issues/detail?id=29
   * Fixed html table output can be invalid if input wiki markup is invalid - http://code.google.com/p/gwtwiki/issues/detail?id=28 
-  * html output for references does not encode some attribute values - http://code.google.com/p/gwtwiki/issues/detail?id=27
-  * Fixed html output is invalid for some references with template interaction - http://code.google.com/p/gwtwiki/issues/detail?id=26
-  * Fixed tml output is invalid for some images with inline quotes - http://code.google.com/p/gwtwiki/issues/detail?id=25
+  * HTML output for references does not encode some attribute values - http://code.google.com/p/gwtwiki/issues/detail?id=27
+  * Fixed HTML output is invalid for some references with template interaction - http://code.google.com/p/gwtwiki/issues/detail?id=26
+  * WikiParser: Fixed HTML output is invalid for some images with inline quotes - http://code.google.com/p/gwtwiki/issues/detail?id=25
   * Change Performance issue : toLowerCase on parseURIScheme - http://code.google.com/p/gwtwiki/issues/detail?id=23
   * Added simple python code formatter
   * Improved source code formatter handling. Try to auto detect some programming languages.
