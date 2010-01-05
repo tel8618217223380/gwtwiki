@@ -2,6 +2,7 @@
 #sidebar TableOfContents
 
 = Version 3.0.14 (unreleased) =
+  * Fixed problems with intranet wiki and "byte order mark" - http://code.google.com/p/gwtwiki/issues/detail?id=33
   * Fixed Image links that have intra-page link are broken - http://code.google.com/p/gwtwiki/issues/detail?id=31
   * Fixed html output for some preformatted text isn't encoded - http://code.google.com/p/gwtwiki/issues/detail?id=30
   * Fixed some image attributes are not encoded - http://code.google.com/p/gwtwiki/issues/detail?id=29
