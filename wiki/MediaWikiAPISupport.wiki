@@ -23,3 +23,13 @@ For example this snippet determines the categories used in the Wikimedia [http:/
 		}
 	}
 }}}
+
+= Connecting through a HTTP proxy =
+In case you are using a proxy you can set the HostConfiguration for the connector. The HostConfiguration holds all of the variables needed to describe an HTTP connection to a host. This includes remote host, port and protocol, proxy host and port, local address, and virtual host. 
+{{{
+		Connector conn = user.getConnector();
+		HttpClient client = conn.getClient();
+		HostConfiguration hostConfiguration = client.getHostConfiguration();
+		hostConfiguration.setProxy("<proxyHost>", 80);
+		client.setHostConfiguration(hostConfiguration);
+}}}
