@@ -8,7 +8,7 @@ These are the [http://code.google.com/p/gwtwiki/source/browse/ active modules in
   * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/de.jtidy.gwt de.jtidy.gwt] - the online HTML to Wiki text converter for the Google Appengine.
 
 == info.bliki.gae ==
-The *info.bliki.gae* tries to port the [http://www.jamwiki.org jamwiki.org] wiki to the [http://code.google.com/appengine/docs/whatisgoogleappengine.html Google Appengine] platform.
+The [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/info.bliki.gae *info.bliki.gae*] SVN module tries to port the [http://www.jamwiki.org jamwiki.org] wiki to the [http://code.google.com/appengine/docs/whatisgoogleappengine.html Google Appengine] platform.
 
 The following changes are already implemented:
   * basic JAMWiki parser framework running (only tested with BlikiParser at the moment)
