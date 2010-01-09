@@ -11,8 +11,8 @@ These are the [http://code.google.com/p/gwtwiki/source/browse/ active modules in
 The *info.bliki.gae* tries to port the [http://www.jamwiki.org jamwiki.org] wiki to the [http://code.google.com/appengine/docs/whatisgoogleappengine.html Google Appengine] platform.
 
 The following changes are already implemented:
-  * basic JAMWiki parser framework
-  * bsic persistence for Topics and WikiUsers
+  * basic JAMWiki parser framework running (only tested with BlikiParser at the moment)
+  * only Topics and WikiUsers are persisted at the moment
   * WikiUsers are wrapping a Google Appengine account
   * Used tools: Spring(3.0), Sitemesh  
   * Using [http://code.google.com/p/objectify-appengine/ Objectify Appengine] for datastore persistence
