@@ -1,0 +1,7 @@
+#summary SVN modules
+
+= SVN modules =
+These are the [http://code.google.com/p/gwtwiki/source/browse/ active modules in SVN]:
+  * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/info.bliki.wiki info.bliki.wiki] - the Java Wikipedia API (Bliki engine) parser library for converting Wikipedia syntax to HTML. 
+  * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/info.bliki.gae info.bliki.gae] - a simple personal wiki for the Google Appengine with Wikipedia syntax support.
+  * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/de.jtidy.gwt de.jtidy.gwt] - the online HTML to Wiki text converter for the Google Appengine.
