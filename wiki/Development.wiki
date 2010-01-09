@@ -14,6 +14,7 @@ The following changes are already implemented:
   * basic JAMWiki parser framework running (only tested with BlikiParser at the moment)
   * only {{{Topic}}} and {{{WikiUser}}} classes are persisted at the moment
   * {{{WikiUser}}} class is wrapping a Google Appengine user account
+  * only admin user is allowed to edit pages 
   * Used tools: Spring(3.0), Sitemesh  
   * Using [http://code.google.com/p/objectify-appengine/ Objectify Appengine] for datastore persistence
   * After first run call http://localhost:8888/page/install as Google admin user to install the LeftMenu, BottomArea, StyleSheet and MainPage predefined wiki pages
