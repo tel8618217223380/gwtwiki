@@ -11,5 +11,5 @@
   * [MavenSupport Maven repository]
   * [EclipseMavenSetup Eclipse Maven setup]
   * [ReleaseNotes Release notes]
-  * [[Development Development]]
+  * [Development Development]
   * [PoweredBy Projects powered by Bliki]
