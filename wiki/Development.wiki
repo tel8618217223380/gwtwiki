@@ -7,5 +7,11 @@ These are the [http://code.google.com/p/gwtwiki/source/browse/ active modules in
   * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/info.bliki.gae info.bliki.gae] - a simple personal wiki for the Google Appengine with Wikipedia syntax support.
   * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/de.jtidy.gwt de.jtidy.gwt] - the online HTML to Wiki text converter for the Google Appengine.
 
-= info.bliki.gae =
+== info.bliki.gae ==
 The *info.bliki.gae* tries to port the [http://www.jamwiki.org jamwiki.org] wiki to the [http://code.google.com/appengine/docs/whatisgoogleappengine.html Google Appengine] platform.
+
+The following changes are already implemented:
+  * basic JAMWiki parser framework
+  * bsic persistence for Topics and WikiUsers
+  * WikiUsers are wrapping a Google Appengine account
+  * Uesd tools: Spring(3.0), Sitemesh
