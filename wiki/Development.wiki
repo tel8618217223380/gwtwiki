@@ -16,3 +16,4 @@ The following changes are already implemented:
   * WikiUsers are wrapping a Google Appengine account
   * Used tools: Spring(3.0), Sitemesh  
   * Using [http://code.google.com/p/objectify-appengine/ Objectify Appengine] for datastore persistence
+  * After first run call http://localhost:8888/page/install as Google admin user to install the LeftMenu, BottomArea, StyleSheet and MainPage predefined wiki pages
