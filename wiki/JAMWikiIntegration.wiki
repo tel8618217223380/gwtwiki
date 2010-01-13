@@ -1,5 +1,5 @@
 #summary Bliki parser integration into www.jamwiki.org wiki.
-#labels Phase-Implementation,Featured
+#labels Phase-Implementation
 #sidebar TableOfContents
 
 = Bliki parser integration into www.jamwiki.org wiki =
