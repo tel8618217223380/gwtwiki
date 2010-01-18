@@ -2,6 +2,7 @@
 #sidebar TableOfContents
 
 = Version 3.0.14 (unreleased) =
+  * Set an optional template call cache implementation in the IConfiguration#setTemplateCallsCache(Map<String, String> map) method. The cache implementation could be based on [http://jcp.org/en/jsr/detail?id=107 JSR 107] for example. Template calls which use the same parameters over and over again do lookup this cache and use the preparsed result if available.
   * Wikipedia API: Fixed problems with intranet wiki and "byte order mark" - Issue33 
   * Fixed Image links that have intra-page link are broken - Issue31
   * Fixed html output for some preformatted text isn't encoded - Issue30
