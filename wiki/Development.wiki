@@ -11,11 +11,9 @@ These are the [http://code.google.com/p/gwtwiki/source/browse/ active modules in
 The [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/info.bliki.gae info.bliki.gae SVN module] tries to port the [http://www.jamwiki.org jamwiki.org] wiki to the [http://code.google.com/appengine/docs/whatisgoogleappengine.html Google Appengine] platform.
 
 The following changes are already implemented:
-  * after first run call http://localhost:8888/page/install as Google admin user to install the LeftMenu, BottomArea, StyleSheet and MainPage predefined wiki pages
+  * after first run call http://localhost:8888/en/Special:Setup to install admin user and the LeftMenu, BottomArea, StyleSheet and MainPage predefined wiki pages
   * basic JAMWiki parser framework running (only tested with BlikiParser at the moment)
-  * only {{{Topic}}} and {{{WikiUser}}} classes are persisted at the moment
-  * {{{WikiUser}}} class is wrapping a Google Appengine user account
-  * only admin user is allowed to edit pages at the moment
+  * basic JAMWiki authentication
   * added most of the jamwiki taglib tags (but they probably need some modifications)
-  * Used tools: Spring(3.0), Sitemesh  
+  * Used tools: Spring(3.0)
   * Using [http://code.google.com/p/objectify-appengine/ Objectify Appengine] for datastore persistence
