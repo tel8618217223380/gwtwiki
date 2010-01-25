@@ -2,8 +2,7 @@
 #sidebar TableOfContents
 
 = Version 3.0.14 (unreleased) =
-  * BlikiConverter - A converter tool for using the Wiki2HTML, Plain2Wiki and 
-HTML2Wiki conversion functions in a Java Swing GUI (r841)
+  * BlikiConverter - A converter tool for using the Wiki2HTML, Plain2Wiki and HTML2Wiki conversion functions in a Java Swing GUI (r841)
   * Fixed PlainTextConverter ignores the text field in between [ ] - Issue34
   * Set an optional template call cache implementation in the IConfiguration#setTemplateCallsCache(Map<String, String> map) method. The cache implementation could be based on [http://jcp.org/en/jsr/detail?id=107 JSR 107] for example. Template calls which use the same parameters over and over again do lookup this cache and use the preparsed result if available (r779).
   * Wikipedia API: Fixed problems with intranet wiki and "byte order mark" - Issue33 
