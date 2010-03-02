@@ -25,7 +25,7 @@ and creates the following HTML snippet:
 
 As you can see the {{{${title}}}} variable is replaced by the text of the wikilink according to the rules specified in the [http://meta.wikimedia.org/wiki/Help:Link Mediawiki Help:Link] article.
 
-If you would like to reuse your WikiModel you should call the {{{setUp()}}} method before and the {{{tearDown()}}} method after finishing the rendering.
+If you would like to reuse your {{{wikiModel}}} you should call the {{{setUp()}}} method before and the {{{tearDown()}}} method after finishing the rendering.
 {{{
     try {
       wikiModel.setUp();
