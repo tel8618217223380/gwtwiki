@@ -2,7 +2,7 @@
 #sidebar TableOfContents
 
 = Version 3.0.14 (unreleased) =
-  * Wikipedia API: GZIP support for getting contents - Issue35
+  * MediaWikiAPISupport: GZIP support for getting contents - Issue35
   * Added {{subst:...}} parser function
   * Added info.bliki.api.creator.HTMLCreatorExample to load a wiki page, templates and images from en.wikipedia.org and render it into an HTML file.
   * BlikiConverter - A converter tool for using the Wiki2HTML, Plain2Wiki and HTML2Wiki conversion functions in a Java Swing GUI (r841)
@@ -33,11 +33,11 @@
   * Allow floating-point numbers like 1.0E10 in math expressions.
   * Avoid unnecessary memory allocation for substrings
   * Add support for telefone call - Issue11
-  * Wikipedia API: added "edittoken" for query
-  * Wikipedia API: added "edit" action support.
-  * Wikipedia API: use builder pattern to create the query for the Wikipedia API
-  * Wikipedia API: added Parse action support  
-  * Wikipedia API: added the "lgdomain" parameter for User() constructor and Connector#login() method - Issue8
+  * MediaWikiAPISupport: added "edittoken" for query
+  * MediaWikiAPISupport: added "edit" action support.
+  * MediaWikiAPISupport: use builder pattern to create the query for the Wikipedia API
+  * MediaWikiAPISupport: added Parse action support  
+  * MediaWikiAPISupport: added the "lgdomain" parameter for User() constructor and Connector#login() method - Issue8
   * More Mediawiki compatible handling for non-closed tags: {{{&lt;noinclude>, &lt;includeonly>, &lt;onlyinclude>}}}
 
 = Version 3.0.11 =
