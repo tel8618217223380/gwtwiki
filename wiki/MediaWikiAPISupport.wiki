@@ -40,6 +40,54 @@ In case you are using a proxy you can set the {{{HostConfiguration}}} for the co
 = Troubleshooting =
 See: [http://hc.apache.org/httpclient-3.x/troubleshooting.html Trouble Shooting HttpClient]
 
+= Example - Get all members of a category =
+Get all members of the category "Category:Physics":
+
+{{{
+package info.bliki.api;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
+
+import org.xml.sax.SAXException;
+
+public class APICategoryMembers {
+	public APITest() {
+		super();
+	}
+
+	public static void testQueryCategoryMembers() {
+		User user = new User("", "", "http://en.wikipedia.org/w/api.php");
+		user.login();
+		String[] valuePairs = { "list", "categorymembers", "cmtitle", "Category:Physics" };
+		Connector connector = new Connector();
+		String rawXmlResponse = connector.queryXML(user, valuePairs);
+		if (rawXmlResponse == null) {
+			System.out.println("Got no XML result for the query");
+		}
+		System.out.println(rawXmlResponse);
+
+		// When more results are available, use "cmcontinue" from last query result
+		// to continue
+		String[] valuePairs2 = { "list", "categorymembers", "cmtitle", "Category:Physics", "cmcontinue", "Awards|" };
+		rawXmlResponse = connector.queryXML(user, valuePairs2);
+		if (rawXmlResponse == null) {
+			System.out.println("Got no XML result for the query");
+		}
+		System.out.println(rawXmlResponse);
+
+	}
+
+
+	public static void main(String[] args) {
+		testQueryCategoryMembers();
+	}
+}
+
+}}}
+
 = Example - Get all interlanguage links =
 Returns all interlanguage links from the given page.
 
