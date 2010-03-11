@@ -5,7 +5,7 @@
 <wiki:toc max_depth="1" />
 
 = Helper classes for the Wikimedia api.php =
-Helper Classes for the [http://www.mediawiki.org/wiki/API MediaWiki API page] can be found in the package: {{{info.bliki.api}}}
+Helper Classes for the [http://www.mediawiki.org/wiki/API MediaWiki API page] can be found in the package: {{{info.bliki.api}}}. All query parameters are described in the api.php page of the requested wiki. For example [http://en.wikipedia.org/w/api.php http://en.wikipedia.org/w/api.php] lists all parameters for en.wikipedia.org.
 
 For example this snippet determines the categories used in the Wikimedia [http://meta.wikimedia.org/wiki/Main_Page Main Page] and [[http://meta.wikimedia.org/wiki/API API]] page:
 {{{
