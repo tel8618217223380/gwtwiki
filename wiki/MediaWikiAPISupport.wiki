@@ -39,3 +39,50 @@ In case you are using a proxy you can set the {{{HostConfiguration}}} for the co
 
 = Troubleshooting =
 See: [http://hc.apache.org/httpclient-3.x/troubleshooting.html Trouble Shooting HttpClient]
+
+= Example - Get all interlanguage links =
+Returns all interlanguage links from the given page.
+
+{{{
+package info.bliki.api;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.List;
+
+import org.xml.sax.SAXException;
+
+public class LangLinksTest {
+	public LangLinksTest() {
+		super();
+	}
+
+	public static void testQueryLangLinks() {
+		User user = new User("", "", "http://en.wikipedia.org/w/api.php");
+		user.login();
+		String[] valuePairs = { "prop", "langlinks", "titles", "England" };
+		Connector connector = new Connector();
+		String rawXmlResponse = connector.queryXML(user, valuePairs);
+		if (rawXmlResponse == null) {
+			System.out.println("Got no XML result for the query");
+		}
+		System.out.println(rawXmlResponse);
+
+		// When more results are available, use "llcontinue" from last query result
+		// to continue
+		String[] valuePairs2 = { "prop", "langlinks", "titles", "England", "llcontinue", "9316|bar" };
+
+		rawXmlResponse = connector.queryXML(user, valuePairs2);
+		if (rawXmlResponse == null) {
+			System.out.println("Got no XML result for the query");
+		}
+		System.out.println(rawXmlResponse);
+
+	}
+
+	public static void main(String[] args) {
+		testQueryLangLinks();
+	}
+}
+}}} 
