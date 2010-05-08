@@ -2,6 +2,8 @@
 #sidebar TableOfContents
 
 = Version 3.0.14 (unreleased) =
+  * Added {{#iferror:...}} parser function
+  * Improved template parser 
   * [MediaWikiAPISupport]: GZIP support for getting contents - Issue35
   * Added {{subst:...}} parser function
   * Added info.bliki.api.creator.HTMLCreatorExample to load a wiki page, templates and images from en.wikipedia.org and render it into an HTML file.
