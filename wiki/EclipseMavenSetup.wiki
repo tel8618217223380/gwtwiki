@@ -2,7 +2,7 @@
 #labels Phase-Implementation
 #sidebar TableOfContents
 
-<wiki:toc max_depth="1" />
+<wiki:toc max_depth="2" />
 
 == Prerequisite ==
 I'm using these plugins under Eclipse:
@@ -24,7 +24,7 @@ as a repository URL.
 Open the trunk node and _right click_ on the _info.bliki.wiki_ node, select the "Find/Check out as..." menu option.
 In the following dialog box you can _Check out_ the source code from SVN.
 
-= Maven install =
+== Maven install ==
 Now change back to the Eclipse _Java perspective_.
 
 For the Maven plugin to recognize the module dependencies you have to:
