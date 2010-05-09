@@ -2,7 +2,7 @@
 #labels Featured
 #sidebar TableOfContents
 
-= Version 3.0.14 (unreleased) =
+= Version 3.0.14 ([MavenSupport unreleased]) =
   * Added {{#iferror:...}} parser function
   * Improved template parser 
   * [MediaWikiAPISupport]: GZIP support for getting contents - Issue35
