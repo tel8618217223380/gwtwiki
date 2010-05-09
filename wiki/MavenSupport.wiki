@@ -1,11 +1,10 @@
 #summary How to use the Maven repository
 #labels Featured,Phase-Implementation
-#sidebar TableOfContents
+#sidebar TableOfContent
 
-= Introduction =
 The following examples demonstrates the configuration of the bliki engine for a Maven project.
 
-<wiki:toc max_depth="1" />
+<wiki:toc max_depth="2" />
 
 ==Include release version==
 {{{
