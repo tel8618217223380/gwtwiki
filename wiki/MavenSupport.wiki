@@ -2,9 +2,10 @@
 #labels Featured,Phase-Implementation
 #sidebar TableOfContents
 
-IN PROGRESS
 = Introduction =
-This example demonstrates the configuration of the bliki engine for a Maven project:
+The following examples demonstrates the configuration of the bliki engine for a Maven project.
+
+<wiki:toc max_depth="1" />
 
 ==Include release version==
 {{{
