@@ -1,6 +1,6 @@
 #summary How to use the Maven repository
 #labels Featured,Phase-Implementation
-#sidebar TableOfContent
+#sidebar TableOfCont
 
 The following examples demonstrates the configuration of the bliki engine for a Maven project.
 
