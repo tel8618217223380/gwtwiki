@@ -155,6 +155,7 @@ public class QueryImageInfoExample {
 		user = connector.login(user);
 
 		System.out.println("PAGE-NAME: " + pageName);
+		// set image width thumb size to 200px
 		List<Page> pages = user.queryImageinfo(new String[] { pageName }, 200);
 
 		System.out.println("PAGES: " + pages.get(0).getTitle());
