@@ -3,6 +3,7 @@
 #sidebar TableOfContents
 
 = Version 3.0.15 ([MavenSupport unreleased]) =
+  * IDs can't contain "." at the begining and "(", ")", "/" elsewere - Issue41
 
 = Version 3.0.14 =
   * Added {{#iferror:...}} parser function
