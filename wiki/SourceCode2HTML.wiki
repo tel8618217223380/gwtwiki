@@ -3,7 +3,7 @@
 #sidebar TableOfContents
 
 = Sourcecode to syntax highlighted HTML converter =
-A syntax highlighter is available for the languages: ABAP (SAP R/3), C#, Java, JavaScript, PHP, XML(HTML).
+A syntax highlighter is available for the languages: ABAP (SAP R/3), C#, Java, JavaScript, PHP, Python, XML(HTML).
 
 A conversion from Java to syntax highlighted HTML looks like this:
 {{{
