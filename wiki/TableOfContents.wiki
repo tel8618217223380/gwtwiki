@@ -1,7 +1,7 @@
 #summary Table of contents navigation
   * [Mediawiki2HTML Mediawiki text to HTML]
     * [WikiModels How to use the WikiModel]
-    * [SourceCode2HTML source code to HTML]
+    * [SourceCode2HTML Source code to HTML]
     * [JAMWikiIntegration Usage in jamwiki.org Wiki]
   * [HTML2Mediawiki HTML to Mediawiki]
   * [MediaWikiAPISupport Wikimedia api.php support]
