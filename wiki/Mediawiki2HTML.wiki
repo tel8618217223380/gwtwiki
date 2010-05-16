@@ -2,6 +2,8 @@
 #labels Featured,Phase-Implementation
 #sidebar TableOfContents
 
+<wiki:toc max_depth="2" />
+
 == How to convert Mediawiki text to HTML ==
 The general idea for the wiki to html `WikiModel` is, that the common wiki syntax rendering is hidden in the internal `WikipediaParser`. 
 Users of the API should derive a class from `WikiModel` or `AbstractWikiModel`, where special things could be managed.
@@ -69,7 +71,7 @@ Look in the WikiModel.java and AbstractWikiModel.java sources for an example:<br
 == Advanced example for rendering Wikipedia articles ==
 A more advanced example can be found in the [http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bliki-pdf/src/main/java/info/bliki/api/creator/HTMLCreatorExample.java HTMLCreatorExample.java] file. If you run this example the first time, the [http://en.wikipedia.org/wiki/Tom_Hanks Tom Hanks] wiki source from Wikipedia is downloaded through the [http://en.wikipedia.org/w/api.php Wikipedia API]. The downloaded wiki texts and templates are stored in an [http://en.wikipedia.org/wiki/Apache_Derby Apache Derby] database, and associated images are downloaded in an already existing image directory {{{C:\temp\WikiImages}}}. After the first run there's a new Derby database created in the directory {{{C:\temp\WikiDB}}}. Every subsequent run of this code snippet will only download the [http://en.wikipedia.org/wiki/Tom_Hanks Tom Hanks] wiki source. The associated templates and images are already cached in the Derby database and in the images directory:
 {{{
-public static void testWikipediaENAPI(String title) {
+	public static void testWikipediaENAPI(String title) {
 		String[] listOfTitleStrings = {
 			title
 		};
@@ -109,5 +111,13 @@ public static void testWikipediaENAPI(String title) {
 				}
 			}
 		}
+	}
+
+	public static void testCreator001() {
+		testWikipediaENAPI("Tom Hanks");
+	}
+
+	public static void main(String[] args) {
+		testCreator001();
 	}
 }}}
