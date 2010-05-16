@@ -5,7 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == How to convert Mediawiki text to HTML ==
-The general idea for the wiki to html `WikiModel` is, that the common wiki syntax rendering is hidden in the internal `WikipediaParser`. 
+The general idea for the wiki to html `[http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bliki-core/src/main/java/info/bliki/wiki/model/WikiModel.java IWikiModel]` is, that the common wiki syntax rendering is hidden in the internal `WikipediaParser`. 
 Users of the API should derive a class from `WikiModel` or `AbstractWikiModel`, where special things could be managed.
 
 A simple wiki text to HTML conversion looks like this:
@@ -65,7 +65,7 @@ You can define the style attribute as allowed in a static block of your WikiMode
 }}}
 
 Look in the WikiModel.java and AbstractWikiModel.java sources for an example:<br>
-  * http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bliki-core/src/main/java/info/bliki/wiki/model/IWikiModel.java
+  * http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bliki-core/src/main/java/info/bliki/wiki/model/WikiModel.java
   * http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bliki-core/src/main/java/info/bliki/wiki/model/AbstractWikiModel.java
 
 == Advanced example for rendering Wikipedia articles ==
