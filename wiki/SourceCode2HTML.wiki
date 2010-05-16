@@ -31,4 +31,4 @@ public class HelloWorld {
 }}}
 
 You can use the source code to syntax highlighted HTML converter online here:
-  * [http://www.jtidy.de www.jtidy.de]
+  * [http://w-i-k-i.appspot.com/ w-i-k-i.appspot.com]
