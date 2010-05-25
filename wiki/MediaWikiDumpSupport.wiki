@@ -1,0 +1,8 @@
+#summary Helper classes to work with the Mediawiki XML dump files.
+#sidebar TableOfContents
+
+These functionality is currently [ReleaseNotes unreleased].
+
+<wiki:toc max_depth="1" />
+
+= Example =
