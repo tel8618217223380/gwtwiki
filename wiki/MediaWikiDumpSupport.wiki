@@ -1,8 +1,13 @@
 #summary Helper classes to work with the Mediawiki XML dump files.
 #sidebar TableOfContents
 
-These functionality is currently [ReleaseNotes unreleased].
+This functionality is currently [ReleaseNotes unreleased].
 
 <wiki:toc max_depth="1" />
 
-= Example =
+= Example how o dump the wiki title and raw text =
+There's a demo application [http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bliki-core/src/test/java/info/bliki/wiki/dump/DumpExample.java DumpExample.java], which iterates through a compressed or uncompressed Wikipedia XML dump file (depending on the given file extension _.gz_, _.bz2_ or _.xml_) and prints the title and raw wiki text of the articles included in the XML Dump.
+
+{{{
+
+}}}
