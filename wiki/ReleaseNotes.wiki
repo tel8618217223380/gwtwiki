@@ -3,6 +3,7 @@
 #sidebar TableOfContents
 
 = Version 3.0.15 ([MavenSupport unreleased]) =
+  * Demo application info.bliki.wiki.dump.DumpExample.java which iterates through a compressed or uncompressed Wikipedia XML dump file (depending on the given file extension _.gz_, _.bz2_ or _.xml_) and prints the title and raw wiki text of the articles - r1349
   * added maven dependency to [http://commons.apache.org/compress/ commons-compress]
   * Ignore space and tab characters at the beginning of a wikipedia table row or cell
   * "pre" tag with "name" attribute is not a good idea in syntax highlighters - issue43
