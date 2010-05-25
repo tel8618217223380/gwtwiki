@@ -3,6 +3,7 @@
 #sidebar TableOfContents
 
 = Version 3.0.15 ([MavenSupport unreleased]) =
+  * added maven dependency to [http://commons.apache.org/compress/ commons-compress]
   * Ignore space and tab characters at the beginning of a wikipedia table row or cell
   * "pre" tag with "name" attribute is not a good idea in syntax highlighters - issue43
   * IDs can't contain "." at the begining and "(", ")", "/" elsewere - Issue41
