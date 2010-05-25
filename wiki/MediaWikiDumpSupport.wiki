@@ -8,7 +8,8 @@ This functionality is currently [ReleaseNotes unreleased].
 = How to get Wikipedia dumps =
 You can download a dump of all Wikipedia articles from the [http://dumps.wikimedia.org/backup-index.html Database dump progress] page.
 
-I tested these helper classes with a dump with thi headline:
+I tested these helper classes with a dump with this headline:
+
 *Articles, templates, image descriptions, and primary meta-pages.*
 
 _This contains current versions of article content, and is the archive most mirror sites will probably want._
