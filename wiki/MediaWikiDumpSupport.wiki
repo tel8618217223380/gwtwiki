@@ -63,7 +63,7 @@ There's a demo application [http://code.google.com/p/gwtwiki/source/browse/trunk
 	}
 }}}
 
-== Example how to print all wiki titles with template prefix ==
+== Example how to print all wiki titles with template namespace ==
 {{{
 	static class DemoTemplateArticleFilter implements IArticleFilter {
 
@@ -76,7 +76,7 @@ There's a demo application [http://code.google.com/p/gwtwiki/source/browse/trunk
 	}
 }}}
 
-== Example how to print all wiki titles with category prefix ==
+== Example how to print all wiki titles with category namespace ==
 {{{
 	static class DemoCategoryArticleFilter implements IArticleFilter {
 
