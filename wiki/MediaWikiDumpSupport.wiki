@@ -88,3 +88,8 @@ There's a demo application [http://code.google.com/p/gwtwiki/source/browse/trunk
 
 	}
 }}}
+
+= Example how to convert all wiki pages from a dump into static HTML files =
+The info.bliki.api.creator.Dump2HTMLCreatorExample.java example converts all pages from a Mediawiki dump into static HTML files by iterating through the dump two times:
+  # in the first pass all templates are stored in a Derby database for faster retrieval
+  # in the second pass all static HTML files are generated for each title 
