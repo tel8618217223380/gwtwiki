@@ -19,7 +19,7 @@ There's a demo application [http://code.google.com/p/gwtwiki/source/browse/trunk
 
 {{{
 ...
-        static class DemoSAXHandler implements IArticleFilter {
+        static class DemoArticleFilter implements IArticleFilter {
 
                 public boolean process(WikiArticle page) {
                         System.out.println("----------------------------------------");
@@ -40,7 +40,7 @@ There's a demo application [http://code.google.com/p/gwtwiki/source/browse/trunk
                 // String bz2Filename = "c:\\temp\\<the dump file name>.xml.bz2";
                 String bz2Filename = args[0];
                 try {
-                        IArticleFilter handler = new DemoSAXHandler();
+                        IArticleFilter handler = new DemoArticleFilter();
                         WikiXMLParser wxp = new WikiXMLParser(bz2Filename, handler);
                         wxp.parse();
                 } catch (Exception e) {
@@ -48,4 +48,43 @@ There's a demo application [http://code.google.com/p/gwtwiki/source/browse/trunk
                 }
         }
 ...
+}}}
+
+= Example how to print all wiki titles with no namespace prefix =
+{{{
+	static class DemoMainArticleFilter implements IArticleFilter {
+
+		public void process(WikiArticle page, Siteinfo siteinfo) throws SAXException {
+			if (page.isMain()) {
+				System.out.println(page.getTitle());
+			}
+		}
+
+	}
+}}}
+
+= Example how to print all wiki titles with template prefix =
+{{{
+	static class DemoTemplateArticleFilter implements IArticleFilter {
+
+		public void process(WikiArticle page, Siteinfo siteinfo) throws SAXException {
+			if (page.isTemplate()) {
+				System.out.println(page.getTitle());
+			}
+		}
+
+	}
+}}}
+
+= Example how to print all wiki titles with category prefix =
+{{{
+	static class DemoCategoryArticleFilter implements IArticleFilter {
+
+		public void process(WikiArticle page, Siteinfo siteinfo) throws SAXException {
+			if (page.isCategory()) {
+				System.out.println(page.getTitle());
+			}
+		}
+
+	}
 }}}
