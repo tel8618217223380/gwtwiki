@@ -2,7 +2,9 @@
 #labels Featured
 #sidebar TableOfContents
 
-= Version 3.0.15 ([MavenSupport unreleased]) =
+<wiki:toc max_depth="2" />
+
+== Version 3.0.15 ([MavenSupport unreleased]) ==
   * Refactoring - extract method substituteTemplateCall(templateName, parameterTreeMap, writer) to IWikiModel interface and default implementation to AbstractWikiModel, so that users can override the default behaviour - r1515
   * new Dump2HTMLCreatorExample.java - create static HTML files from a given Mediawiki dump. See MediaWikiDumpSupport. 
   * incompatible changes with older versions in {{{info.bliki.wiki.dump.IArticleFilter interface}}}
@@ -13,7 +15,7 @@
   * "pre" tag with "name" attribute is not a good idea in syntax highlighters - issue43
   * IDs can't contain "." at the begining and "(", ")", "/" elsewere - Issue41
 
-= Version 3.0.14 =
+== Version 3.0.14 ==
   * Added {{#iferror:...}} parser function
   * Improved template parser 
   * [MediaWikiAPISupport]: GZIP support for getting contents - Issue35
@@ -35,14 +37,14 @@
   * Improved source code formatter handling. Try to auto detect some programming languages.
 
 
-= Version 3.0.13 =
+== Version 3.0.13 ==
   * more JUnit wiki parser tests
   * Changed encoding for Maven explicitly to UTF-8 
   * Added Wikipedia namespaces class
   * Fixed Issue19
   * Fixed Issue16
 
-= Version 3.0.12 =
+== Version 3.0.12 ==
   * Don't convert first character to uppercase character for interwiki topics
   * Allow floating-point numbers like 1.0E10 in math expressions.
   * Avoid unnecessary memory allocation for substrings
@@ -54,7 +56,7 @@
   * [MediaWikiAPISupport]: added the "lgdomain" parameter for User() constructor and Connector#login() method - Issue8
   * More Mediawiki compatible handling for non-closed tags: {{{&lt;noinclude>, &lt;includeonly>, &lt;onlyinclude>}}}
 
-= Version 3.0.11 =
+== Version 3.0.11 ==
   * the bliki-core Maven artifact is now available in this repository (thanks Daniel Sendula). More information can be found in page MavenSupport 
   * support for the &lt;onlyinclude> tag in templates
   * support for Image size format {width}x{height}px
