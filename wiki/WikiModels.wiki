@@ -58,3 +58,18 @@ The [http://www.mediawiki.org/wiki/Help:Magic_words#Variables Magic words Variab
 If the  model should support substituting or extracting template calls we have to implement the {{{IWikiModel#substituteTemplateCall(templateName, parameterTreeMap, writer)}}} method.
  
 Simply override the default implementation of the {{{info.bliki.wiki.model.AbstractWikiModel}}} (or {{{info.bliki.wiki.model.WikiModel}}}), to get your own behaviour inside your wiki model.
+
+For example it's useful, if you would like to extract an {{{Infobox}}} template like this one from the [http://en.wikipedia.org/wiki/Tom_Hanks Tom Hanks Wikipedia] page:
+
+{{{
+{{Infobox Actor
+| image         = TomHanksApr09.jpg
+| caption       = Hanks in April 2009
+| birthname     = Thomas Jeffrey Hanks
+| birthdate     = {{birth date and age|1956|7|9}}
+| birthplace = [[Concord, California]], [[United States|U.S.]]
+| yearsactive   = 1979–present
+| occupation    = Actor, producer, director, voice over artist, writer, speaker
+| spouse        = Samantha Lewes (1978–1987)<br>[[Rita Wilson]] (1988–present)
+}}
+}}}
