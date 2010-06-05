@@ -55,7 +55,7 @@ In the [http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bli
 The [http://www.mediawiki.org/wiki/Help:Magic_words#Variables Magic words Variables] are not completely supported. In the [http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bliki-core/src/main/java/info/bliki/wiki/filter/MagicWord.java info.bliki.wiki.filter.MagicWord] you can find the currently implemented magic words variables.
 
 == How to substitute template calls ([MavenSupport currently unreleased])==
-If the  model should support substituting or extracting template calls we have to implement the {{{IWikiModel#substituteTemplateCall(templateName, parameterTreeMap, writer)}}} method.
+If the  model should support a special substituting or extracting of template calls, which differs from the default implementation, we have to implement the {{{IWikiModel#substituteTemplateCall(templateName, parameterTreeMap, writer)}}} method.
  
 Simply override the default implementation of the {{{info.bliki.wiki.model.AbstractWikiModel}}} (or {{{info.bliki.wiki.model.WikiModel}}}), to get your own behaviour inside your wiki model.
 
