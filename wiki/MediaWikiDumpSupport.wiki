@@ -1,4 +1,4 @@
-#summary Helper classes to work with the Mediawiki XML dump files.
+#summary Helper classes to work with MediaWiki XML dump files.
 #sidebar TableOfContents
 
 This functionality is currently [ReleaseNotes unreleased].
