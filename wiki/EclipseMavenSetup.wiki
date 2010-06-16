@@ -7,7 +7,7 @@
 == Prerequisite ==
 I'm using these plugins under Eclipse:
   * [http://subclipse.tigris.org/ subclipse] plugin
-  * [http://m2eclipse.codehaus.org/ M2Eclipse] plugin
+  * [http://m2eclipse.sonatype.org/ M2Eclipse] plugin
 
 == Setup ==
 Install Subclipse and the Maven Eclipse plugins.   
