@@ -15,7 +15,7 @@ Install Subclipse and the Maven Eclipse plugins.
   # Choose "Search for new features to install"
   # The required plugin URLs for subclipse and M2Eclipse are:
   #* http://subclipse.tigris.org/update_1.0.x
-  #* http://m2eclipse.codehaus.org/update/
+  #* http://m2eclipse.sonatype.org/sites/m2e/ 
 
 Once installed, select the "SVN Repository" Eclipse perspective and add 
   * https://gwtwiki.googlecode.com/svn/trunk/
