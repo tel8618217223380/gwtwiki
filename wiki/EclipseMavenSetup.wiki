@@ -39,4 +39,4 @@ should be set in the file:
 
 In the _Package Explorer_ view do a _right mouse click_ on the {{{pom.xml}}} file and select the menu _Run As -> Maven build..._.
 
-In the appearing dialog box choose the _install_ goal and run Maven.
+In the appearing dialog box choose the _install_ goal and run Maven (or hit the _Run As -> Maven Install_ menu directly in the _Package Explorer_ views menu). 
