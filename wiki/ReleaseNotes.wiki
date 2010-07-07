@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.15 ([MavenSupport unreleased]) ==
+  * SQL source code highlighting - Issue47 
   * Refactoring - extract method {{{substituteTemplateCall(templateName, parameterTreeMap, writer)}}} to IWikiModel interface and default implementation to AbstractWikiModel, so that users can override the default behaviour - r1515
   * new Dump2HTMLCreatorExample.java - create static HTML files from a given Mediawiki dump. See MediaWikiDumpSupport. 
   * incompatible changes with older versions in {{{info.bliki.wiki.dump.IArticleFilter interface}}}
