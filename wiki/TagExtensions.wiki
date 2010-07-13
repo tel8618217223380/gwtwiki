@@ -8,6 +8,19 @@ A wiki text like the following should for example show a TeX formula as an Image
   <chart cht=tx chl="x = \\frac{-b \\pm \\sqrt {b^2-4ac}}{2a}" />
 }}}
 
+or the following should for example show a barchart
+{{{
+<chart 
+  cht=bvs 
+  chs=800x300 
+  chbh=20,1 
+  chxt=x,y 
+  chco=76A4FB 
+  chls=2.0   
+chd=t:1,2,3,6,9,13,20,28,37,49,60,72,83,92,98,100,98,92,83,72,60,49,37,28,20,13,9,6,3,2,1 
+/>
+}}}
+
 The source code for this "chart" tag can befound in SVN: [http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bliki-core/src/main/java/info/bliki/wiki/tags/extension/ChartTag.java ChartTag.java]
 
 In your own derived wiki model add the new tag to the configuration:
