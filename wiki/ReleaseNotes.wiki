@@ -5,7 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.15 ([MavenSupport unreleased]) ==
-  * added a [TagExtensions Google Chart API wiki tag extension]   
+  * added a [TagExtensions Google Chart API wiki tag extension] example  
   * added SQL source code highlighting - Issue47 
   * changed info.bliki.wiki.template.ITemplateFunction#parseFunction() method signature
   * Refactoring - extract method {{{substituteTemplateCall(templateName, parameterTreeMap, writer)}}} to IWikiModel interface and default implementation to AbstractWikiModel, so that users can override the default behaviour - r1515
