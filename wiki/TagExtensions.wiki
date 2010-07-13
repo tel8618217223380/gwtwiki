@@ -31,7 +31,7 @@ To create a new tag extend the {{{HTMLTag}}} and implement the {{{INoBodyParsing
 {{{
 public class ChartTag extends HTMLTag implements INoBodyParsingTag {
 }}}
-To allow all the Google Chart API parameters in the new tag, we define a set of allowed attributes and implement the {{{isAllowedAttribute()}}} method:
+To allow all the [http://code.google.com/intl/de-DE/apis/chart/docs/chart_params.html Google Chart API parameters] as attributes in the new tag, we define a set of allowed attributes and implement the {{{isAllowedAttribute()}}} method:
 {{{
 ...
 final static public HashSet<String> ALLOWED_ATTRIBUTES_SET = new HashSet<String>(997);
