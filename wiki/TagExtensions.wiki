@@ -3,6 +3,8 @@
 
 <wiki:toc max_depth="2" />
 
+This is an [MavenSupport unreleased feature].
+
 == Introduction ==
 In the following steps we create a new wiki tag which supports the [http://code.google.com/apis/chart/ Google Chart API].
 
