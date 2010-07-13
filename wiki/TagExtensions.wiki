@@ -50,7 +50,31 @@ public boolean isAllowedAttribute(String attName) {
 }
 }}}
 
-In your own derived wiki model add the new tag to the configuration:
+in the {{{renderHTML()}}} method the Google Chart API URL will be constructed from the given attributes and mapped attribute values:
+{{{
+public void renderHTML(ITextConverter converter, Appendable buf, IWikiModel model) throws IOException {
+
+                TagNode node = this;
+                StringBuilder chartUrl = new StringBuilder(100);
+                Map<String, String> tagAtttributes = node.getAttributes();
+                Set<String> keysSet = tagAtttributes.keySet();
+                for (String str : keysSet) {
+                        if (str.equals("alt")) {
+                                continue;
+                        }
+                        Utils.appendAmpersandEscapedAttribute(chartUrl, str, tagAtttributes);
+                }
+
+                buf.append("<img border=\"0\" src=\"http://chart.apis.google.com/chart?");
+                buf.append(chartUrl);
+                buf.append("\" alt=\"");
+                Utils.appendEscapedAttribute(buf, "alt", tagAtttributes);
+                buf.append("\" />");
+        }
+
+}}}
+
+Now you can add the new tag to the configuration in a static block of your own derived wiki model class:
 {{{
 ...
 static {
