@@ -31,3 +31,5 @@ static {
 }
 ...
 }}}
+
+Now the new chart tag syntax can be used in your wiki application.
