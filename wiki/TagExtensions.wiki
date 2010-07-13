@@ -1,0 +1,20 @@
+#summary How to create a wiki tag extension
+
+== Introduction ==
+In the following steps we would like to create a new wiki tag which should support the [http://code.google.com/apis/chart/ Google Chart API].
+
+A wiki text like the following should for example show a TeX formula as an Image:
+{{{
+  <chart cht=tx chl="x = \\frac{-b \\pm \\sqrt {b^2-4ac}}{2a}" />
+}}}
+
+The source code for this "chart" tag can befound in SVN: [http://code.google.com/p/gwtwiki/source/browse/trunk/info.bliki.wiki/bliki-core/src/main/java/info/bliki/wiki/tags/extension/ChartTag.java ChartTag.java]
+
+In your own derived wiki model add the new tag to the configuration:
+{{{
+...
+static {
+  Configuration.DEFAULT_CONFIGURATION.addTokenTag("chart", new ChartTag());
+}
+...
+}}}
