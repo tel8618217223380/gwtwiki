@@ -8,7 +8,7 @@ In the following steps we create a new wiki tag which supports the [http://code.
 
 A wiki text like the following should for example show a TeX formula as an Image:
 {{{
-  <chart cht=tx chl="x = \\frac{-b \\pm \\sqrt {b^2-4ac}}{2a}" />
+  <chart cht=tx chl="x = \frac{-b \pm \sqrt {b^2-4ac}}{2a}" />
 }}}
 
 http://chart.apis.google.com/chart?chl=x+%3D+%5Cfrac%7B-b+%5Cpm+%5Csqrt+%7Bb%5E2-4ac%7D%7D%7B2a%7D&cht=tx&i=i.png
