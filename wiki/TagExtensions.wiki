@@ -50,7 +50,7 @@ public boolean isAllowedAttribute(String attName) {
 }
 }}}
 
-in the {{{renderHTML()}}} method the Google Chart API URL will be constructed from the given attributes and mapped attribute values:
+in the {{{renderHTML()}}} method the Google Chart API URL will be constructed from the given attribute values and embedded in an {{{<img .../>}}} HTML tag:
 {{{
 public void renderHTML(ITextConverter converter, Appendable buf, IWikiModel model) throws IOException {
 
