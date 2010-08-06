@@ -3,11 +3,12 @@
 
 <wiki:toc max_depth="2" />
 
-== The parser function implementation ==
+== Introduction ==
 See [http://www.mediawiki.org/wiki/Help:Extension:ParserFunctions Mediawiki - Help:Extension:ParserFunctions] for example of parser functions.
 
 In the Bliki engine many of these functions are predefined in the package {{{info.bliki.wiki.template}}}
 
+== The parser function implementation ==
 For your own parser function you need to implement an AbstractTemplateFunction. The following code shows a simple example to start with. The {{arg1:the first argument}} parser function call should simply return "the first argument".
  
 {{{
