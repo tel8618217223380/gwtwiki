@@ -4,6 +4,7 @@
     * [SourceCode2HTML Source code to HTML]
     * [JAMWikiIntegration Usage in jamwiki.org Wiki]
     * [TagExtensions How to create new wiki tags]
+    * [ParserFunctionExtensions How to create new parser functions]
   * [HTML2Mediawiki HTML to Mediawiki]
   * [MediaWikiAPISupport MediaWiki api.php support]
   * [MediaWikiDumpSupport MediaWiki XML dump support]
