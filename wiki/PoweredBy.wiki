@@ -1,9 +1,9 @@
 #summary Projects powered by the Java Wikipedia API (bliki engine).
 #sidebar TableOfContents
 
-= Powered by=
+== Powered by ==
+  * [http://code.google.com/p/vosao Vosao CMS] ([http://www.vosao.org/author/doc/wiki more about the wiki engine integration])
   * [http://solowiki.sourceforge.net/ SoloWiki] (GPL license) is a stand-alone editor designed to help Mediawiki users.
-  * [http://www.codexwiki.org CodexWiki] (Apache license) is a ColdFusion Enterprise Wiki built on Coldbox, Transfer and ColdSpring.
   * [http://www.jamwiki.org JAMWiki.org] (LGPL license) offers many of the features of [http://mediawiki.org/ Mediawiki] (for using the Bliki engine see [JAMWikiIntegration])
   * [http://www.uniblogger.com uniBlogger.com] - a JAMWiki performance branch sandbox using a modified bliki Parser addon.
-  * [http://code.google.com/p/vosao Vosao CMS] ([http://www.vosao.org/author/doc/wiki more about the wiki engine integration])
+  * [http://www.codexwiki.org CodexWiki] (Apache license) is a ColdFusion Enterprise Wiki built on Coldbox, Transfer and ColdSpring.
