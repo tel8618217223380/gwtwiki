@@ -4,7 +4,9 @@
 
 <wiki:toc max_depth="2" />
 
-== Version 3.0.15 ([MavenSupport unreleased]) ==
+== Version 3.0.16 ([MavenSupport unreleased]) ==
+
+== Version 3.0.15 ==
   * new parser functions {{formatnum:...}} and {{plural:...}}
   * added a [TagExtensions Google Chart API wiki tag extension] example  
   * added SQL source code highlighting - Issue47 
