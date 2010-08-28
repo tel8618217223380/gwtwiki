@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.16 ([MavenSupport unreleased]) ==
+  * performance improvements: parseURIScheme() did to much parsing and isCamelCaseEnabled() was called to often. - r2105
 
 == Version 3.0.15 ==
   * new parser functions {{formatnum:...}} and {{plural:...}}
