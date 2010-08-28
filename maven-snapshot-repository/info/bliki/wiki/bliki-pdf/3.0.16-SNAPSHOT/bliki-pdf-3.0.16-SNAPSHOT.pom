@@ -9,10 +9,10 @@
 	<artifactId>bliki-pdf</artifactId>
 	<groupId>info.bliki.wiki</groupId>
 	<packaging>jar</packaging>
-	<name>Bliki (PDF)</name>
+	<name>Bliki (PDF)</name> 
 	<version>3.0.16-SNAPSHOT</version>
 	<description> This is PDF project. </description>
-	<dependencies>
+	<dependencies> 
 		<dependency>
 			<groupId>info.bliki.wiki</groupId>
 			<artifactId>bliki-core</artifactId>
