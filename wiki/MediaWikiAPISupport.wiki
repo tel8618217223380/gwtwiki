@@ -25,6 +25,7 @@ For example this snippet determines the categories used in the Wikimedia [http:/
 		}
 	}
 }}}
+*Note:* from release 3.0.16 on the {{{Category}}} class is replaced by the {{{PageInfo}}} class in the last example.
 
 = Connecting through a HTTP proxy =
 (Needs [http://code.google.com/p/gwtwiki/source/detail?r=635 revision 635])
