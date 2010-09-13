@@ -25,7 +25,7 @@ For example this snippet determines the categories used in the Wikimedia [http:/
 		}
 	}
 }}}
-*Note:* from release 3.0.16 on the {{{Category}}} class is replaced by the {{{PageInfo}}} class in the last example.
+*Note:* from releases >= 3.0.16 on the {{{Category}}} class is replaced by the {{{PageInfo}}} class in the last example.
 
 = Connecting through a HTTP proxy =
 (Needs [http://code.google.com/p/gwtwiki/source/detail?r=635 revision 635])
@@ -175,4 +175,80 @@ public class QueryImageInfoExample {
 	}
 
 }
+}}}
+
+= Example - Get the raw wiki content for all category members =
+Get the raw wiki content for all members of the category  *Category:Physics*
+
+{{{
+	public static void testQueryCategoryMembersPages() {
+		User user = new User("", "", "http://en.wikipedia.org/w/api.php");
+		user.login();
+		String[] valuePairs = { "list", "categorymembers", "cmtitle", "Category:Physics" };
+		String[] valuePairsContinue = new String[6];
+		String cmContinue = "||";
+		for (int i = 0; i < valuePairs.length; i++) {
+			valuePairsContinue[i] = valuePairs[i];
+		}
+		valuePairsContinue[4] = "cmcontinue";
+		valuePairsContinue[5] = "";
+		Connector connector = new Connector();
+		List<PageInfo> resultCategoryMembers = new ArrayList<PageInfo>(1024);
+		XMLCategoryMembersParser parser;
+		try {
+			// get all categorymembers
+			String responseBody = connector.queryXML(user, valuePairs);
+			while (responseBody != null) {
+				parser = new XMLCategoryMembersParser(responseBody);
+				parser.parse();
+				cmContinue = parser.getCmContinue();
+				System.out.println(">>>>> " + cmContinue);
+				List<PageInfo> listOfPages = parser.getPagesList();
+				resultCategoryMembers.addAll(listOfPages);
+				for (PageInfo categoryMember : listOfPages) {
+					// print page information
+					System.out.println(categoryMember.toString());
+				}
+				if (cmContinue.length() > 0) {
+					// use the cmcontinue from the last query to get the next block of
+					// category members
+					valuePairsContinue[5] = cmContinue;
+					responseBody = connector.queryXML(user, valuePairsContinue);
+				} else {
+					break;
+				}
+			}
+			// get the content of the category members with namespace==0
+			int count = 0;
+			List<String> strList = new ArrayList<String>();
+			for (PageInfo categoryMember : resultCategoryMembers) {
+				if (categoryMember.getNs().equals("0")) {
+					// namespace "0" - all titles without a namespace prefix
+					strList.add(categoryMember.getTitle());
+					if (++count == 10) {
+						List<Page> listOfPages = user.queryContent(strList);
+						for (Page page : listOfPages) {
+							// System.out.println(page.getTitle());
+							// print the raw content of the wiki page:
+							System.out.println(page.getCurrentContent());
+						}
+						count = 0;
+						strList = new ArrayList<String>();
+					}
+				}
+			}
+			if (count != 0) {
+				List<Page> listOfPages = user.queryContent(strList);
+				for (Page page : listOfPages) {
+					// System.out.println(page.getTitle());
+					// print the raw content of the wiki page:
+					System.out.println(page.getCurrentContent());
+				}
+			}
+		} catch (SAXException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 }}}
