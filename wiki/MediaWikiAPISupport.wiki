@@ -178,6 +178,8 @@ public class QueryImageInfoExample {
 }}}
 
 = Example - Get the raw wiki content for all category members =
+*Note:* This snippet runs in releases >= 3.0.16 (see [MavenSupport unreleased])
+
 Get the raw wiki content for all members of the category  *Category:Physics*
 
 {{{
