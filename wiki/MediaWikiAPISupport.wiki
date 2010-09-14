@@ -263,7 +263,7 @@ Get the raw wiki content for all members of the category  *Category:Physics*
 Get the raw wiki content for all search result pages for the words *forrest gump*
 
 {{{
-public static void testQuerySearchResults() {
+	public static void testQuerySearchResults() {
 		User user = new User("", "", "http://en.wikipedia.org/w/api.php");
 		user.login();
 		// search for all pages which contain "forrest gump"
