@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.16 ([MavenSupport unreleased]) ==
+  * added JARs for Java sources and Javadoc to Maven repository
   * deleted info.bliki.api.Category use info.bliki.api.PageInfo instead
   * performance improvements: parseURIScheme() did to much parsing and isCamelCaseEnabled() was called to often. - r2105
 
