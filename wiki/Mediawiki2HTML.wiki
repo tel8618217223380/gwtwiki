@@ -27,20 +27,20 @@ and creates the following HTML snippet:
 
 As you can see the {{{${title}}}} variable is replaced by the text of the wikilink according to the rules specified in the [http://meta.wikimedia.org/wiki/Help:Link Mediawiki Help:Link] article.
 
-The prefered way to use your own implemented {{{wikiModel}}} is to create a {{{new MyWikiModel(...)}}} for every wiki text you would like to render.
+The prefered way to use your own implemented {{{myWikiModel}}} is to create a {{{new MyWikiModel(...)}}} for every wiki text you would like to render.
 
-If you would like to reuse your own {{{wikiModel}}} you should call the {{{setUp()}}} method before and the {{{tearDown()}}} method after finishing the rendering.
+If you would like to reuse your own {{{myWikiModel}}} you should call the {{{setUp()}}} method before and the {{{tearDown()}}} method after finishing the rendering.
 {{{
     try {
-      wikiModel.setUp();
+      myWikiModel.setUp();
 
-      String htmlStr = wikiModel.render(<some text>);
+      String htmlStr = myWikiModel.render(<some text>);
       System.out.print(htmlStr);
     } finally {
-      wikiModel.tearDown();
+      myWikiModel.tearDown();
     }
 }}}
-In the {{{tearDown()}}} method of your own {{{wikiModel}}} you have to call the {{{AbstractWikiModel#initialize()}}} method or reinitialize the protected attributes in {{{AbstractWikiModel}}}, {{{WikiModel}}} to avoid memory leaks.
+In the {{{setUp()}}} or {{{tearDown()}}} method of your own {{{MyWikiModel}}} you have to call the {{{AbstractWikiModel#initialize()}}} method or reinitialize the protected attributes in {{{AbstractWikiModel}}}, {{{WikiModel}}} to avoid memory leaks.
 
 
 You can for example overwrite the {{{WikiModel#parseInternalImageLink()}}} method to change the default rendering behaviour of the {{{[[Image:...]]}}} tag.
