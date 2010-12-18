@@ -4,7 +4,9 @@
 
 <wiki:toc max_depth="2" />
 
-== Version 3.0.16 ([MavenSupport unreleased]) ==
+== Version 3.0.17 ([MavenSupport unreleased]) ==
+
+== Version 3.0.16 ==
   * Maven repositoy is unusable with Java 5 - Issue61
   * Wikipedia Template:Citation/core contains {{{<nowiki />}}} tags, which breaks rendering of templates - Issue59
   * Patch for "Template parameter expansion with mixed named/unnamed parameters"  - Issue56
