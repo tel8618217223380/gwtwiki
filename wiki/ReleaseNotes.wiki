@@ -7,7 +7,7 @@
 == Version 3.0.17 ([MavenSupport unreleased]) ==
 
 == Version 3.0.16 ==
-  * Maven repositoy is unusable with Java 5 - Issue61
+  * Maven repository is unusable with Java 5 - Issue61
   * Wikipedia Template:Citation/core contains {{{<nowiki />}}} tags, which breaks rendering of templates - Issue59
   * Patch for "Template parameter expansion with mixed named/unnamed parameters"  - Issue56
   * removed Maven dependencies for packages commons-validator 1.3.1 and oro 2.0. - r2494
