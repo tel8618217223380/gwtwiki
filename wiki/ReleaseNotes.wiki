@@ -5,8 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.17 ([MavenSupport unreleased]) ==
-  * Use similar CSS classes as Wikipedia for image thumbs (thumb, thumbcaption,
-thumbinner)
+  * Use similar CSS classes as Wikipedia for image thumbs (thumb, thumbcaption, thumbinner)
 
 == Version 3.0.16 ==
   * Maven repository is unusable with Java 5 - Issue61
