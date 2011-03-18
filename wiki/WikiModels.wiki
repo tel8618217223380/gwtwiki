@@ -16,7 +16,7 @@ For this page we assume that we use the following code snippet with a {{{MyWikiM
 }}}
 
 == How to expand templates found in a wiki text ==
-If our model should support expanding templates we have to implement the {{{IWikiModel#getRawWikiContent()}}} method.
+If our model should support [http://en.wikipedia.org/wiki/Wikipedia:Transclusion Transclusion] (i.e. expanding templates within a document) we have to implement the {{{IWikiModel#getRawWikiContent()}}} method.
 
 If we would like to expand the {{{my template}}} template with the text "foo" in the following string:
 
