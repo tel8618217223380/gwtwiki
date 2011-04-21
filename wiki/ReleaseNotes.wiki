@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.17 ([MavenSupport unreleased]) ==
+  * Multiple Sections with the same name don't have different anchor tags - Issue64
   * Use similar CSS classes as Wikipedia for image thumbs (thumb, thumbcaption, thumbinner)
 
 == Version 3.0.16 ==
