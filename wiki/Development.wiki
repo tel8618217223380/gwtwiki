@@ -4,16 +4,4 @@
 = SVN modules =
 These are the [http://code.google.com/p/gwtwiki/source/browse/ active modules in SVN]:
   * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/info.bliki.wiki info.bliki.wiki] - the Java Wikipedia API (Bliki engine) parser library for converting Wikipedia syntax to HTML. See MavenSupport to use the library from Maven.
-  * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/info.bliki.gae info.bliki.gae] - a simple personal wiki for the Google Appengine with Wikipedia syntax support.
   * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/de.jtidy.gwt de.jtidy.gwt] - the online HTML to Wiki text converter for the Google Appengine.
-
-== info.bliki.gae ==
-The [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/info.bliki.gae info.bliki.gae SVN module] tries to port the [http://www.jamwiki.org jamwiki.org] wiki to the [http://code.google.com/appengine/docs/whatisgoogleappengine.html Google Appengine] platform.
-
-The following changes are already implemented:
-  * after first run call http://localhost:8888/en/Special:Setup to install admin user and the LeftMenu, BottomArea, StyleSheet and MainPage predefined wiki pages
-  * basic JAMWiki parser framework running (only tested with BlikiParser at the moment)
-  * basic JAMWiki authentication
-  * added most of the jamwiki taglib tags (but they probably need some modifications)
-  * Used tools: Spring(3.0)
-  * Using [http://code.google.com/p/objectify-appengine/ Objectify Appengine] for datastore persistence
