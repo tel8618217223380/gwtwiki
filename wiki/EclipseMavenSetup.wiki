@@ -11,7 +11,7 @@ I'm using these plugins under Eclipse:
 
 == Setup ==
 Install Subclipse and the Maven Eclipse plugins.   
-  # In Eclipse go to Help &rarr; Software Updates &rarr; Find and Install.
+  # In Eclipse go to menu _Help -> Software Updates -> Find and Install_.
   # Choose "Search for new features to install"
   # The required plugin URLs for subclipse and M2Eclipse are:
   #* http://subclipse.tigris.org/update_1.0.x
