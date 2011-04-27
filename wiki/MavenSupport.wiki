@@ -2,7 +2,7 @@
 #labels Featured,Phase-Implementation
 #sidebar TableOfContents
 
-The following examples demonstrates the configuration of the bliki engine for a Maven project.
+The following examples demonstrate the configuration of the bliki engine for a Maven project.
 
 <wiki:toc max_depth="2" />
 
