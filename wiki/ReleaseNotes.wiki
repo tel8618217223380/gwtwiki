@@ -10,7 +10,7 @@
   * wordcount attribute not read correctly because of case mismatch - Issue66
   * Source tag fails to render groovy source properly - Issue65
   * Multiple Sections with the same name don't have different anchor tags - Issue64
-  * Use similar CSS classes as Wikipedia for image thumbs (thumb, thumbcaption, thumbinner)
+  * Use similar CSS classes like Wikipedia for image thumbs (thumb, thumbcaption, thumbinner)
 
 == Version 3.0.16 ==
   * Maven repository is unusable with Java 5 - Issue61
