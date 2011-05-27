@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.17 ([MavenSupport unreleased]) ==
+  * source tag for "sql" adds empty line as first line - Issue69
   * WikiModel's setUp() and tearDown() do not reset TOC info - Issue68
   * source code comments in source tags not rendered - Issue67
   * wordcount attribute not read correctly because of case mismatch - Issue66
