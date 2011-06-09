@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.17 ([MavenSupport unreleased]) ==
+  * {{{__TOC__}}} element following a single {{{<h1>}}} but before multiple {{{<h2>}}} elements results in the table of contents ONLY displaying the {{{<h1>}}} element in the TOC.d - Issue12
   * source tag for "sql" adds empty line as first line - Issue69
   * WikiModel's setUp() and tearDown() do not reset TOC info - Issue68
   * source code comments in source tags not rendered - Issue67
