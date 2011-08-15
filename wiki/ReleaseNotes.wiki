@@ -86,7 +86,7 @@
 
 == Version 3.0.11 ==
   * the bliki-core Maven artifact is now available in this repository (thanks Daniel Sendula). More information can be found in page MavenSupport 
-  * support for the &lt;onlyinclude> tag in templates
+  * support for the {{{<onlyinclude>}}} tag in templates
   * support for Image size format {width}x{height}px
   * dropped Trac support
   * Using '.' instead of '%' in table of content "anchor links"
