@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.17 ([MavenSupport unreleased]) ==
+  * improved incomplete implementation of the time template function - Issue73
   * fixed wrong href links for {{{<ref>}}} and {{{<references>}}} tags - r3801
   * one-character Section Headers not rendered - Issue72
   * WikiArticle missing revision information - Issue71
