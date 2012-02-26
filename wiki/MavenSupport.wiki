@@ -20,7 +20,7 @@ The following examples demonstrate the configuration of the bliki engine for a M
 		<dependency>
 			<groupId>info.bliki.wiki</groupId>
 			<artifactId>bliki-core</artifactId>
-			<version>3.0.16</version>
+			<version>3.0.17</version>
 		</dependency>
 	</dependencies>
 
@@ -56,7 +56,7 @@ The following examples demonstrate the configuration of the bliki engine for a M
 		<dependency>
 			<groupId>info.bliki.wiki</groupId>
 			<artifactId>bliki-core</artifactId>
-			<version>3.0.17-SNAPSHOT</version>
+			<version>3.0.18-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
