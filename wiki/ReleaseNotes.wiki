@@ -5,7 +5,8 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.18 ([MavenSupport unreleased]) ==
-  * nesting links and templates with parameters inside a table disrupts the table - Issue 77
+  * implemented #titleparts template function - Issue78
+  * nesting links and templates with parameters inside a table disrupts the table - Issue77
   * Brazillian Portuguese translation - Issue76
 
 == Version 3.0.17 ==
