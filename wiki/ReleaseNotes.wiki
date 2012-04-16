@@ -5,7 +5,13 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.18 ([MavenSupport unreleased]) ==
-  * implemented #titleparts template function - Issue78
+  * Configuration change - loading of {{{interwiki.properties}}} file - Issue84
+  * missing support for behavior switches - Issue83
+  * possible recursive loop in in template parameter substitution - Issue82
+  * refactored the {{{subst:...}}} and {{{safesubst:...}} template functions into the prepocessor step - Issue81
+  * don't strip whitespace from unnamed template parameters - Issue80
+  * improved zime template function - Issue73 	
+  * implemented {{{#titleparts}}} template function - Issue78
   * nesting links and templates with parameters inside a table disrupts the table - Issue77
   * Brazillian Portuguese translation - Issue76
 
