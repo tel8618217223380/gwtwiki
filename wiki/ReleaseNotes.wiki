@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.18 ([MavenSupport unreleased]) ==
+  * Template substitution uses wrong cache value - Issue85 	
   * Configuration change - loading of {{{interwiki.properties}}} file - Issue84
   * missing support for behavior switches - Issue83
   * possible recursive loop in template parameter substitution - Issue82
