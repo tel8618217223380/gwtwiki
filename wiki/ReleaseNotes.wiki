@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.18 ([MavenSupport unreleased]) ==
+  * Incorrect parsing of noinclude, includeonly, and onlyinclude - Issue86
   * Template substitution uses wrong cache value - Issue85 	
   * Configuration change - loading of {{{interwiki.properties}}} file - Issue84
   * missing support for behavior switches - Issue83
