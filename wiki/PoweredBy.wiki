@@ -7,3 +7,4 @@
   * [http://www.jamwiki.org JAMWiki.org] (LGPL license) offers many of the features of [http://mediawiki.org/ Mediawiki] (for using the Bliki engine see [JAMWikiIntegration])
   * [http://www.uniblogger.com uniBlogger.com] - a JAMWiki performance branch sandbox using a modified bliki Parser addon.
   * [http://www.codexwiki.org CodexWiki] (Apache license) is a ColdFusion Enterprise Wiki built on Coldbox, Transfer and ColdSpring.
+  * [http://code.google.com/p/scalaris/ Scalaris] - a distributed key-value store (see the [http://code.google.com/p/scalaris/source/browse/#svn%2Ftrunk%2Fcontrib%2Fwikipedia Wikipedia example]
