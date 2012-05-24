@@ -6,7 +6,9 @@
 
 == Version 3.0.18 ([MavenSupport unreleased]) ==
   * {{{Encoder#encodeTitleLocalUrl()}}} creates invalid Windows file names - Issue95
-  *  {{{AbstractWikiModel#setUp()}}} forgets to re-set fRedirectLink in - Issue92
+  * allow ignoring tag extensions through configuration - Issue94
+  * Simplify basic usage with a static {{{WikiModel#toHtml(()}}} and {{{WikiModel#toText(()}}} method - Issue93
+  * {{{AbstractWikiModel#setUp()}}} forgets to re-set fRedirectLink in - Issue92
   * fixed duplication of rendering (external) links  - Issue90
   * Extended the IWikiModel#render() method with a boolean parameter which indicates, if the text should be rendered directly in template topic mode or not - Issue86
   * Incorrect parsing of noinclude, includeonly, and onlyinclude - Issue86
