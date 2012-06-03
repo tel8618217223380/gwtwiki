@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.19 ([MavenSupport unreleased]) ==
+  * not started yet
 
 == Version 3.0.18 ==
   * {{{Encoder#encodeTitleLocalUrl()}}} creates invalid Windows file names - Issue95
