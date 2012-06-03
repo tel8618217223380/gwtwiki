@@ -29,7 +29,8 @@ returns the following HTML text string:
 
 If you would like to write to a {{{java.io.Writer}}}, you can use the {{{toHtml()}}} method like this:
 {{{
-java.io.StringWriter writer = new java.io.StringWriter();
+  java.io.StringWriter writer = new java.io.StringWriter();
+
   try {
     WikiModel.toHtml("This is a simple [[Hello World]] wiki tag", writer);
     writer.flush();
