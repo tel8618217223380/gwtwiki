@@ -27,7 +27,7 @@ returns the following HTML text string:
 <p>This is a simple <a href="/Hello_World" title="Hello World">Hello World</a> wiki tag</p>
 }}}
 
-If you would like to write to a {{java.io.Writer}}, yo can use the {{{toHtml()}}} method like this:
+If you would like to write to a {{{java.io.Writer}}}, you can use the {{{toHtml()}}} method like this:
 {{{
 java.io.StringWriter writer = new java.io.StringWriter();
   try {
