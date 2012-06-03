@@ -4,7 +4,9 @@
 
 <wiki:toc max_depth="2" />
 
-== Version 3.0.18 ([MavenSupport unreleased]) ==
+== Version 3.0.19 ([MavenSupport unreleased]) ==
+
+== Version 3.0.18 ==
   * {{{Encoder#encodeTitleLocalUrl()}}} creates invalid Windows file names - Issue95
   * allow ignoring tag extensions through configuration - Issue94
   * Simplify basic usage with a static {{{WikiModel#toHtml()}}} and {{{WikiModel#toText()}}} method - Issue93
