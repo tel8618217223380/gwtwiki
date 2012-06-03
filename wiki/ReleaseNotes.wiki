@@ -8,6 +8,7 @@
   * not started yet
 
 == Version 3.0.18 ==
+  * slow parsing of huge tables - Issue97
   * {{{Encoder#encodeTitleLocalUrl()}}} creates invalid Windows file names - Issue95
   * allow ignoring tag extensions through configuration - Issue94
   * Simplify basic usage with a static {{{WikiModel#toHtml()}}} and {{{WikiModel#toText()}}} method - Issue93
