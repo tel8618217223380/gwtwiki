@@ -7,7 +7,7 @@
 == Introduction ==
 In this wiki text you will find some examples how to convert Wikipedia markup text into HTML text.
 
-For the following examples make sure, that you have the current {{{bliki-core-3.0.xx.jar}}} (version > 3.0.18) included in your classpath.
+For the following examples make sure, that you have the current {{{bliki-core-3.0.xx.jar}}} (version >= 3.0.18) included in your classpath.
 
 == Basic Usage ==
 The following Java code snippet: 
