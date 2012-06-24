@@ -5,7 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.19 ([MavenSupport unreleased]) ==
-  * not started yet
+  * avoid tags with empty content - Issue98
 
 == Version 3.0.18 ==
   * slow parsing of huge tables - Issue97
