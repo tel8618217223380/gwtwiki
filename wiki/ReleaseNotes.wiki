@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.19 ([MavenSupport unreleased]) ==
+  * delete dependency for commons-lang library - Issue100
   * syntax highlighting for sql does not work properly - Issue99
   * avoid tags with empty content - Issue98
 
