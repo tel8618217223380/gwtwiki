@@ -9,7 +9,7 @@ In this wiki text you will find some examples how to convert Wikipedia markup te
 
 For the following examples make sure, that you have the current {{{bliki-core-3.0.xx.jar}}} (version >= 3.0.18) included in your classpath.
 
-The bliki core depends on the following JARs:
+The bliki core depends on the following JARs, which are dowloadable here [http://gwtwiki.googlecode.com/files/bliki.core.libs.001.zip bliki.core.libs.001.zip]:
   * commons-logging-1.0.4.jar
   * commons-lang-2.4.jar
   * commons-codec-1.2.jar
