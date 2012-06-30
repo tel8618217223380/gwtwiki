@@ -13,9 +13,10 @@ The bliki core depends on the following JARs, which are dowloadable here [http:/
   * commons-logging-1.0.4.jar
   * commons-lang-2.4.jar
   * commons-codec-1.2.jar
-  * commons-httpclient-3.1.jar (for the MediaWikiAPISupport)
-  * commons-compress-1.0.jar (for reading Mediawiki dumps)
+  * commons-httpclient-3.1.jar for the [MediaWikiAPISupport MediaWiki api.php support]
+  * commons-compress-1.0.jar for the [MediaWikiDumpSupport MediaWiki XML dump support]
   * junit-4.5.jar (only for JUnit tests)
+ 
 
 If you use Eclipse make sure that your projects _text file encoding_ is *UTF-8*
 
