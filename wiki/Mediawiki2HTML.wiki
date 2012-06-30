@@ -9,6 +9,8 @@ In this wiki text you will find some examples how to convert Wikipedia markup te
 
 For the following examples make sure, that you have the current {{{bliki-core-3.0.xx.jar}}} (version >= 3.0.18) included in your classpath.
 
+If you use Eclipse make sure that your projects _text file encoding_ is *UTF-8*
+
 == Basic Usage ==
 The following Java code snippet: 
 {{{
