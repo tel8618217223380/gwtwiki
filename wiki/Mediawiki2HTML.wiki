@@ -18,7 +18,7 @@ The bliki core depends on the following JARs, which are dowloadable here [http:/
   * junit-4.5.jar (only for JUnit tests)
  
 
-If you use Eclipse make sure that your projects _text file encoding_ is *UTF-8*
+If you use [http://www.eclipse.org/ Eclipse] make sure that your projects _text file encoding_ is *UTF-8*
 
 == Basic Usage ==
 The following Java code snippet: 
