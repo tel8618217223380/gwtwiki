@@ -6,7 +6,7 @@
 
 == Version 3.0.19 ([MavenSupport unreleased]) ==
   * internal links do not render correctly in some browsers - Issue101
-  * incorrect rendering of newlines/spaces in #... parser functions - Issue1ß2
+  * incorrect rendering of newlines/spaces in #... parser functions - Issue102
   * delete dependency for commons-lang library - Issue100
   * syntax highlighting for sql does not work properly - Issue99
   * avoid tags with empty content - Issue98
