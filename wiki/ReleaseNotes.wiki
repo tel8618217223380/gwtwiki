@@ -5,6 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.19 ([MavenSupport unreleased]) ==
+  * improved rendering of image format - Issue 103
   * incorrect rendering of newlines/spaces in #... parser functions - Issue102
   * internal links do not render correctly in some browsers - Issue101
   * delete dependency for commons-lang library - Issue100
