@@ -4,7 +4,14 @@
 
 <wiki:toc max_depth="2" />
 
-== Version 3.0.19 ([MavenSupport unreleased]) ==
+== Version 3.0.20 ([MavenSupport unreleased]) ==
+  * not yet started
+
+== Version 3.0.19 ==
+  * Fullurl parser function uses the english Wikipedia  - Issue111
+  * Recursion counters managed incorrectly - Issue110
+  * Improve the behaviour of the NAMESPACE magic word - Issue108
+  * Improve the rendering of the {{{Template:Convert}}} - Issue107	
   * thumb-images should also stop pre-tags - Issue106
   * image parser eats characters of text following directly after a wiki image link - Issue105
   * linebreaks with no starting space char do not separate preformatted text - Issue104
