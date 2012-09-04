@@ -8,6 +8,7 @@
   * [http://www.uniblogger.com uniBlogger.com] - a JAMWiki performance branch sandbox using a modified bliki Parser addon.
   * [http://www.codexwiki.org CodexWiki] (Apache license) is a ColdFusion Enterprise Wiki built on Coldbox, Transfer and ColdSpring.
   * [http://code.google.com/p/scalaris/ Scalaris] - a distributed key-value store (see the [http://code.google.com/p/scalaris/source/browse/#svn%2Ftrunk%2Fcontrib%2Fwikipedia Wikipedia example])
+  * [https://github.com/mdoering/wikipedia-dwca] - a parser for wikipedia species pages using the taxabox template.
 
 == Blog posts ==
   * [http://trulymadlywordly.blogspot.mx/2011/03/creating-text-corpus-from-wikipedia.html Creating a text corpus from Wikipedia]
