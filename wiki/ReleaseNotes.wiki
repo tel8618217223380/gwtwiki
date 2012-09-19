@@ -5,7 +5,7 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.20 ([MavenSupport unreleased]) ==
-  * not yet started
+  * Changed user-agent string for querying the Wikipedia API - Issue113
 
 == Version 3.0.19 ==
   * Fullurl parser function uses the english Wikipedia  - Issue111
