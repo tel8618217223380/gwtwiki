@@ -5,6 +5,8 @@
 <wiki:toc max_depth="2" />
 
 == Version 3.0.20 ([MavenSupport unreleased]) ==
+  * Improvements in namespace handling - Issue115
+  * Rendering non-existing transclude should display a (red) link - Issue114 
   * Changed user-agent string for querying the Wikipedia API - Issue113
 
 == Version 3.0.19 ==
