@@ -5,5 +5,4 @@
 These are the [http://code.google.com/p/gwtwiki/source/browse/ active modules in SVN]:
   * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/info.bliki.wiki info.bliki.wiki] - the 3.1.x Java Wikipedia API (Bliki engine) parser library for converting Wikipedia syntax to HTML. See MavenSupport to use the library from Maven.
   * [http://code.google.com/p/gwtwiki/source/browse/#svn/branches/3.0/info.bliki.wiki info.bliki.wiki] - the older 3.0.x Java Wikipedia API (Bliki engine) parser library for converting Wikipedia syntax to HTML. See MavenSupport to use the library from Maven.
- 
   * [http://code.google.com/p/gwtwiki/source/browse/#svn/trunk/de.jtidy.gwt de.jtidy.gwt] - the online HTML to Wiki text converter for the Google Appengine.
