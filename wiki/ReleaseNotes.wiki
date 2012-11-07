@@ -9,6 +9,14 @@
   * API changes (compared to 3.0.x versions)
 
 == Version 3.0.20-SNAPSHOT ([MavenSupport unreleased]) ==
+  * fixed skipping empty implicitely numbered parameters - r7785
+  * switch: don't parse RHS value if not needed (improves performance) - r7784
+  * fixed last character of template name removed if '~' - r7780
+  * increased TEMPLATE_BUFFER_LIMIT and TEMPLATE_VALUE_LIMIT for rendering newer Wikipedia dumps
+  * allow `<abbr>` HTML tags
+  * carriage-return in template parameters is not removed - Issue 121
+  * template parameter in template parameter name does not work - Issue 120
+  * add implicit `<ul>` if parsing encountered `<li>` tags without ol or ul - Issue 118
   * Improvements in namespace handling - Issue115
   * Rendering non-existing transclude should display a (red) link - Issue114 
   * Changed user-agent string for querying the Wikipedia API - Issue113
